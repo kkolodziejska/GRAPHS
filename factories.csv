@@ -1,6 +1,7 @@
 Site_id,Site_name,Site_type,Longitude,Latitude,Delivers_to
 1,Site 1,Assembly site,,,
 2,Factory 1,Factory,,,1
+2,Factory 1,Factory,,,12
 3,Site 2,Assembly site,,,
 4,Factory 2,Factory,,,3
 5,Metal factory,Factory,,,9
