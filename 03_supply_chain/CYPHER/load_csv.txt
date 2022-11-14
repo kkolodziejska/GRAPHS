@@ -1,0 +1,25 @@
+//load factories
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAPHS/main/factories.csv' AS row
+MERGE (f: Site {site_id: toInteger(row.Site_id), site_name: row.Site_name, site_type: row.Site_type})
+RETURN DISTINCT f;
+
+//establish connections between factories
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAPHS/main/factories.csv' AS row
+MATCH (s1: Site {site_id: toInteger(row.Site_id)})
+MATCH (s2: Site {site_id: toInteger(row.Delivers_to)})
+MERGE (s1)-[:DELIVERS_TO]->(s2)
+RETURN *;
+
+//add products
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAPHS/main/products.csv' AS row
+MATCH (s:Site {site_id: toInteger(row.Producer)})
+MERGE (p:Product {product_id: toInteger(row.Product_id), product_name: row.Product_name, price: toFloat(row.Price)})
+MERGE (s)-[:PRODUCES]->(p)
+RETURN *;
+
+//add relationships between products
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAPHS/main/products_dependencies.csv' AS row
+MATCH (p1: Product {product_id: toInteger(row.Product1)})
+MATCH (p2: Product {product_id: toInteger(row.Product2)})
+MERGE (p1)-[:USED_BY]->(p2)
+RETURN *;

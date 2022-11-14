@@ -1,0 +1,7 @@
+// show the whole graph
+
+MATCH (s1:Site)-[d:DELIVERS_TO]->(s2:Site)
+MATCH (s3:Site)-[p:PRODUCES]->(p1:Product)
+MATCH (p2:Product)-[u:USED_BY]->(p3:Product)
+RETURN *;
+

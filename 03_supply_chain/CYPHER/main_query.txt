@@ -1,0 +1,25 @@
+//find number of affected sites and products for example site down (with id 5)
+
+MATCH (:Site {site_id: 11})-[:DELIVERS_TO|PRODUCES|USED_BY*]->(h)
+WITH h, labels(h)[0] as node_type
+WITH node_type,
+(CASE
+WHEN node_type = 'Product' THEN collect(distinct h.product_name)
+ELSE collect(distinct h.site_name)
+END) as affected_entities
+RETURN node_type, affected_entities, size(affected_entities) as count;
+
+//return all affected paths
+
+MATCH p=(:Site {site_id: 5})-[:DELIVERS_TO|PRODUCES|USED_BY*]->(h)
+RETURN p
+
+//find alternative route for affected products
+
+MATCH (site_down:Site {site_id: 11})-[:PRODUCES]->(h)
+WITH site_down, collect(h) as affected_entities
+MATCH (s:Site)-[:PRODUCES]->(h)
+WHERE h in affected_entities and s <> site_down
+WITH s as alternate_site
+MATCH p=(alternate_site)-[:DELIVERS_TO|PRODUCES|USED_BY*]->()
+RETURN p
