@@ -5,13 +5,14 @@ Site_id,Site_name,Site_type,Longitude,Latitude,Delivers_to
 4,Factory 2,Factory,,,3
 5,Metal factory,Factory,,,9
 5,Metal factory,Factory,,,15
-6,Factory 3,Factory,,,13
-7,Factory 4,Factory,,,14
-7,Factory 4,Factory,,,13
-8,Factory 5,Factory,,,2
-9,Factory 6,Factory,,,
-10,Factory 7,Factory,,,12
-11,Site 3,Assembly site,,,
-12,Site 4,Assembly site,,,
-13,Factory 8,Factory,,,4
-14,Factory 9,Factory,,,1
+5,Metal factory,Factory,,,4
+7,Factory 3,Factory,,,13
+8,Factory 4,Factory,,,14
+8,Factory 4,Factory,,,13
+9,Factory 5,Factory,,,2
+10,Factory 6,Factory,,,
+11,Factory 7,Factory,,,12
+12,Site 3,Assembly site,,,
+13,Site 4,Assembly site,,,
+14,Factory 9,Factory,,,4
+15,Factory 10,Factory,,,1
