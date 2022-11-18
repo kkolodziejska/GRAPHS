@@ -33,22 +33,19 @@ MATCH (site_down:Site {site_id: 11})
 MATCH affected_path=(start_site:Site)-[:DELIVERS_TO*0..]->(site_down)-[:DELIVERS_TO*0..]->(end_site:Site)
 WHERE NOT ()-[:DELIVERS_TO]->(start_site)
 AND NOT (end_site)-[:DELIVERS_TO]->()
-WITH site_down, start_site, end_site, affected_path, apoc.path.elements(affected_path) as affected_path_as_list
+WITH site_down, start_site, end_site, affected_path, relationships(affected_path) as all_routes
 
 // 2. find affected product in affected path
 
 OPTIONAL MATCH (site_down)-[d:DELIVERS_TO]->(:Site)
-WHERE d in affected_path_as_list
-WITH site_down, start_site, end_site, affected_path,
-(CASE WHEN d IS NOT NULL THEN d.item_id ELSE null END) as affected_product, affected_path_as_list
+WHERE d in all_routes
+WITH site_down, start_site, end_site, affected_path, all_routes,
+(CASE WHEN d IS NOT NULL THEN d.item_id ELSE null END) as affected_product
 OPTIONAL MATCH (i:Product {product_id: affected_product})
 
 // 3. find length of original path (affected path)
 
-MATCH ()-[d:DELIVERS_TO]->()
-WHERE d in affected_path_as_list
-WITH site_down, start_site, end_site, affected_path, i as affected_product, collect(d) as all_routes
-WITH site_down, start_site, end_site, affected_path, affected_product,
+WITH site_down, start_site, end_site, affected_path, i as affected_product,
 reduce(acc=0,route in all_routes|acc+route.route_km) as affected_path_length
 
 // 4. find alternate site producing affected product
@@ -64,13 +61,11 @@ affected_path, affected_product, alternate_site, affected_path_length
 
 OPTIONAL MATCH (alternate_site)-[d:DELIVERS_TO {item_id: affected_product.product_id}]->()
 OPTIONAL MATCH alternate_path = (start_site)-[:DELIVERS_TO*0..]->(alternate_site)-[:DELIVERS_TO*0..]->(end_site)
-WHERE d in apoc.path.elements(alternate_path)
-WITH site_down, affected_path, affected_product, alternate_site, alternate_path, affected_path_length
+WHERE d in relationships(alternate_path)
+WITH site_down, affected_path, affected_product, alternate_site, alternate_path, affected_path_length,
+relationships(alternate_path) as all_routes
 
 // 6. find length of alternate path
-OPTIONAL MATCH ()-[d:DELIVERS_TO]->()
-WHERE d in apoc.path.elements(alternate_path)
-WITH site_down, affected_path, affected_product, alternate_site, alternate_path, affected_path_length,
-collect(d) as all_routes
 RETURN site_down, affected_path, affected_product, alternate_site, alternate_path, affected_path_length,
-(CASE WHEN alternate_path is null THEN null ELSE reduce(acc=0,route in all_routes|acc+route.route_km) END) as alternate_path_length
+(CASE WHEN alternate_path is null THEN null ELSE reduce(acc=0,route in all_routes|acc+route.route_km) END)
+as alternate_path_length
