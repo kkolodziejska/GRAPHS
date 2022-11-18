@@ -1,4 +1,4 @@
-//find number of affected sites and products for example site down (with id 5)
+//find number of affected sites and products for example site down (with id 11)
 
 MATCH (:Site {site_id: 11})-[:DELIVERS_TO|PRODUCES|USED_BY*]->(h)
 WITH h, labels(h)[0] as node_type
@@ -11,15 +11,66 @@ RETURN node_type, affected_entities, size(affected_entities) as count;
 
 //return all affected paths
 
-MATCH p=(:Site {site_id: 5})-[:DELIVERS_TO|PRODUCES|USED_BY*]->(h)
+MATCH p=(:Site {site_id: 11})-[:DELIVERS_TO|PRODUCES|USED_BY*]->(h)
 RETURN p
 
 //find alternative route for affected products
+//result fields:
+//- site down
+//- affected path
+//- affected product in path
+//- alternate site
+//- alternate path
+//- length of original path
+//- length of alternate path
+//- cost of original path
+//- cost of alternate path
 
-MATCH (site_down:Site {site_id: 11})-[:PRODUCES]->(h)
-WITH site_down, collect(h) as affected_entities
-MATCH (s:Site)-[:PRODUCES]->(h)
-WHERE h in affected_entities and s <> site_down
-WITH s as alternate_site
-MATCH p=(alternate_site)-[:DELIVERS_TO|PRODUCES|USED_BY*]->()
-RETURN p
+
+// 1. find max paths that include site down
+
+MATCH (site_down:Site {site_id: 11})
+MATCH affected_path=(start_site:Site)-[:DELIVERS_TO*0..]->(site_down)-[:DELIVERS_TO*0..]->(end_site:Site)
+WHERE NOT ()-[:DELIVERS_TO]->(start_site)
+AND NOT (end_site)-[:DELIVERS_TO]->()
+WITH site_down, start_site, end_site, affected_path, apoc.path.elements(affected_path) as affected_path_as_list
+
+// 2. find affected product in affected path
+
+OPTIONAL MATCH (site_down)-[d:DELIVERS_TO]->(:Site)
+WHERE d in affected_path_as_list
+WITH site_down, start_site, end_site, affected_path,
+(CASE WHEN d IS NOT NULL THEN d.item_id ELSE null END) as affected_product, affected_path_as_list
+OPTIONAL MATCH (i:Product {product_id: affected_product})
+
+// 3. find length of original path (affected path)
+
+MATCH ()-[d:DELIVERS_TO]->()
+WHERE d in affected_path_as_list
+WITH site_down, start_site, end_site, affected_path, i as affected_product, collect(d) as all_routes
+WITH site_down, start_site, end_site, affected_path, affected_product,
+reduce(acc=0,route in all_routes|acc+route.route_km) as affected_path_length
+
+// 4. find alternate site producing affected product
+
+OPTIONAL MATCH (alternate_site:Site)-[:PRODUCES]->(affected_product)
+WHERE alternate_site <> site_down
+WITH site_down,
+(CASE WHEN start_site = site_down THEN alternate_site ELSE start_site END) as start_site,
+(CASE WHEN end_site = site_down THEN alternate_site ELSE end_site END) as end_site,
+affected_path, affected_product, alternate_site, affected_path_length
+
+// 5. find alternate path with alternate site
+
+OPTIONAL MATCH (alternate_site)-[d:DELIVERS_TO {item_id: affected_product.product_id}]->()
+OPTIONAL MATCH alternate_path = (start_site)-[:DELIVERS_TO*0..]->(alternate_site)-[:DELIVERS_TO*0..]->(end_site)
+WHERE d in apoc.path.elements(alternate_path)
+WITH site_down, affected_path, affected_product, alternate_site, alternate_path, affected_path_length
+
+// 6. find length of alternate path
+OPTIONAL MATCH ()-[d:DELIVERS_TO]->()
+WHERE d in apoc.path.elements(alternate_path)
+WITH site_down, affected_path, affected_product, alternate_site, alternate_path, affected_path_length,
+collect(d) as all_routes
+RETURN site_down, affected_path, affected_product, alternate_site, alternate_path, affected_path_length,
+(CASE WHEN alternate_path is null THEN null ELSE reduce(acc=0,route in all_routes|acc+route.route_km) END) as alternate_path_length
