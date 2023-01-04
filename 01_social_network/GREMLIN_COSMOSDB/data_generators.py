@@ -256,3 +256,20 @@ def employee_generator(n: int, file_name: str = None) -> None:
 
             for employee_id, data in employees.items():
                 csvwriter.writerow(data)
+
+
+def generate_skills_file(source_file: str, sink_file: str = None) -> None:
+
+    with open(source_file, 'r') as source:
+        with open(sink_file, 'w') as sink:
+            csvreader = csv.DictReader(source)
+            csvwriter = csv.DictWriter(sink, fieldnames=['employee_id', 'skill'])
+            csvwriter.writeheader()
+            for row in csvreader:
+                employee_id = int(row['id'])
+                skills = row['skills'].strip('[]').replace('\'', '').split(', ')
+                for skill in skills:
+                    csvwriter.writerow({
+                        'employee_id': employee_id,
+                        'skill': skill
+                    })
