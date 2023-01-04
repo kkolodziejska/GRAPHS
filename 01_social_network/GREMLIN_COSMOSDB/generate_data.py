@@ -9,5 +9,5 @@ if __name__ == '__main__':
     employees_in_projects_path = '../_data/employee_projects.csv'
     # employee_generator(2000, file_path)
     # generate_skills_file(file_path, employee_skills_path)
-    # projects_generator(500, projects_path)
+    # projects_generator(100, projects_path)
     assign_employees_to_projects(file_path, projects_path, employees_in_projects_path)
