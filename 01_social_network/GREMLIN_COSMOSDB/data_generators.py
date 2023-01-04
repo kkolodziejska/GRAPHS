@@ -363,8 +363,4 @@ def assign_employees_to_projects(employees_file: str,
                         date.fromisoformat(row['hire_date']),
                         date(2022, 1, 1))
                 }
-                data['end_date'] = fake.date_between(
-                    data['start_date'],
-                    date(2022, 1, 1)
-                )
                 csvwriter.writerow(data)
