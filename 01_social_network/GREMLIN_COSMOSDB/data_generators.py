@@ -229,32 +229,6 @@ def employee_generator(n: int, file_name: str = None) -> None:
 
                 data['manager'] = manager_id
 
-        specialisation = data.get('specialisation')
-        possible_managers = managers[specialisation]
-        number_of_managers = len(possible_managers)
-
-        if number_of_managers == 0:
-            data['manager'] = None
-        elif number_of_managers == 1 and employee_id in possible_managers:
-            data['manager'] = None
-        elif number_of_managers == 2 and employee_id in possible_managers:
-            possible_managers.remove(employee_id)
-            another_manager = possible_managers[0]
-            if employees[another_manager]['manager'] == employee_id:
-                data['manager'] = None
-            else:
-                data['manager'] = another_manager
-        else:
-            manager_id = employee_id
-
-            while manager_id == employee_id \
-                    or employees[manager_id]['manager'] == employee_id:
-                manager_id = possible_managers[
-                    random.randint(0, number_of_managers - 1)]
-
-            data['manager'] = manager_id
-
-
     # write to file or output
     if not file_name:
         for employee_id, data in employees.items():
