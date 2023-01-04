@@ -1,0 +1,501 @@
+id,name,client,status
+0,e3e70682-c209-4cac-a29f-6fbed82c07cd,Grupa Bek s.c.,in preparation
+1,c8a70639-eb11-47b3-a7a9-c3787c65c1e5,Fundacja Gabara,ongoing
+2,37ebdcd9-e87a-4613-a443-df789558867f,Spółdzielnia Ziętal-Grabias i syn s.c.,in preparation
+3,40212ef7-cca5-45a1-9e4d-6e3c1846d424,FPUH Antoszczyk-Steciuk S.A.,ongoing
+4,12e0c8b2-bad6-40fb-9948-8dec4f65d4d9,Fundacja Małycha,ongoing
+5,50f24455-6f25-42a2-9a92-118719c78df4,FPUH Turlej-Pleban Sp.j.,ongoing
+6,42af9fc3-8577-4e9a-9d84-f39e71545a13,Pierz s.c.,ongoing
+7,b83e90ec-17e0-4a3c-8398-3ca8ea7e9d49,FPUH Ławniczek i syn s.c.,finished
+8,9ca5499d-004a-4545-a011-6be5ab0c1681,Gabinety Heba Sp. z o.o. Sp.k.,ongoing
+9,b421eaeb-5340-47ca-baf3-897a3e70f16a,Rzeźniczak s.c.,ongoing
+10,f7b0b7d2-cda8-456c-bd15-eef738c1962e,Młocek-Olesiejuk Sp.j.,ongoing
+11,51ef1922-fe43-449e-9498-18d11759edc3,Fundacja Kandzia-Bok s.c.,finished
+12,8c25166a-1ff3-4849-b4e1-357d4a84eb03,Gabinety Dudkowiak,finished
+13,9a6a5f92-cca7-4147-b6be-1f723405095c,PPUH Puła-Barczuk Sp. z o.o.,ongoing
+14,5129fb7c-6288-41a5-8c45-782198a6416d,Spółdzielnia Pietrak-Zacharek S.A.,finished
+15,9cdeb3e6-0870-415c-afcd-81b5d24bace4,Fundacja Fornalik,finished
+16,215663ab-c1f2-44b8-adc0-da7a16febaa0,Bernatowicz-Miecznik Sp. z o.o.,ongoing
+17,d450fe4a-ec4f-417b-b306-d1a8e5eeac76,FPUH Ziemann-Zimmer Sp.k.,ongoing
+18,cfc6e625-8594-4927-868f-f53d864a7a50,Rejmak-Wacławczyk Sp.k.,ongoing
+19,6b5f5241-f323-4a74-9344-749096fd35d0,Stowarzyszenie Żelazo-Tabiś Sp.k.,ongoing
+20,eabca8d0-b341-4acd-bf0a-c0f1a425799a,Grupa Golenia,ongoing
+21,964a870c-7c87-4b74-9d87-8f9f9cdf5a86,Gabinety Kidoń,ongoing
+22,4562be7f-bb42-40b2-8426-465e3e37952d,Kłósek S.A.,ongoing
+23,552116dd-2ba4-4180-8b69-ca385f3f5638,Gabinety Barcz Sp. z o.o.,ongoing
+24,b29a8b06-daf6-4c5f-a577-bffac87a7463,Denkiewicz-Leoniuk s.c.,ongoing
+25,88c132ad-efbf-419e-a8f6-cf32a25b59fd,FPUH Bródka-Hejduk Sp. z o.o.,ongoing
+26,d480865f-9b38-4e80-b042-e325a28f5ab0,Grupa Ziemann-Walo Sp. z o.o. Sp.k.,finished
+27,0950fd13-1db5-4334-bb03-23a1d576d415,Grupa Kwarciak-Bareja Sp.k.,ongoing
+28,ba26d851-35e8-479a-baaf-0e891fb797fa,Sosnówka Sp. z o.o.,ongoing
+29,19fbeb1d-9edf-43da-acf5-5b158b53031d,Grupa Opas,ongoing
+30,59acdd98-4d12-4e7f-a59c-ec98126cbc8f,Spółdzielnia Paliga s.c.,ongoing
+31,19d5f970-98b3-4c6e-8a14-b90a7795e986,Spółdzielnia Szykuła Sp. z o.o. Sp.k.,ongoing
+32,d69c91c2-7860-4602-bb4a-06cbe786ab37,Spółdzielnia Wieja-Heczko S.A.,ongoing
+33,c9e4dab2-0edc-4d2b-8470-f0e7f76fbfb8,Szczot-Fiedoruk Sp. z o.o. Sp.k.,ongoing
+34,98c75205-1e01-4934-802d-0baf878b9f6b,FPUH Smektała Sp. z o.o.,ongoing
+35,e66cd36e-68ef-4f5f-ae68-690a78bc7175,Gabinety Beker-Szpara Sp.k.,ongoing
+36,a859890c-d670-4668-a37e-0edc5b6e4ae7,Spółdzielnia Domka,ongoing
+37,bdd7d19b-753c-4c99-832f-06cab0d9c2aa,Filak Sp.k.,ongoing
+38,2284b7a4-47e7-4593-8b58-85ca0bb2c3f0,Roda-Sommer Sp. z o.o. Sp.k.,in preparation
+39,5bf49c04-ac64-4b4c-89b2-5ded9c31d9b2,FPUH Choina-Namysł S.A.,ongoing
+40,bf9cc545-6355-48f7-8f6f-a985b732d46f,Gabinety Drwięga Sp. z o.o.,ongoing
+41,b2d650af-313b-42b7-9836-31890063e42f,Spółdzielnia Gogacz,ongoing
+42,60ef1471-72b8-4f39-a32c-9b6f391cf046,Gabinety Kazior-Domżał Sp.j.,ongoing
+43,6b10e53a-9145-4e05-b3ab-1b2cdf26f517,Kuba Sp.j.,ongoing
+44,285e25b4-b396-4057-825c-b200105ada6b,PPUH Mielke Sp.j.,ongoing
+45,c167733f-9a9e-4310-8fb8-3babe8754cd3,Związek Sp. z o.o.,ongoing
+46,d675ebf7-4fe3-4c9a-9371-0f577e9cf84f,Grupa Krzeszowiec i syn s.c.,ongoing
+47,6a46721a-cffa-4cdd-b963-a7efe00111e5,Elert-Gmurczyk Sp. z o.o.,ongoing
+48,fca05536-2169-4f82-b9bd-ee2dd663049d,Draus Sp.k.,ongoing
+49,36a98d74-00de-49f5-90f0-fc2b6ae04d52,Leżoń i syn s.c.,ongoing
+50,acfebb4b-d29e-4693-baf1-501b009a815b,PPUH Rodzeń-Ciuła Sp. z o.o.,ongoing
+51,dfa7c6ed-32d1-481b-a636-425c9bbd750d,Stowarzyszenie Przeklasa,ongoing
+52,79c147c7-19a5-411b-aea6-0b99fa7ff8bf,FPUH Jaroszuk Sp. z o.o.,ongoing
+53,ccc14d51-73f6-40d8-a9f4-1cc04653a560,Kuźnia Sp. z o.o. Sp.k.,ongoing
+54,d138d150-8557-416a-a750-2a812227d96d,Grupa Miąsik,ongoing
+55,04c14982-d9ea-4926-8745-dd9e27896389,Masny S.A.,ongoing
+56,50910bdc-8ef0-46d4-8279-b14dae55cdff,PPUH Rejmak,ongoing
+57,f61164ce-bfc7-4ca9-98ab-0b300ac0cf0d,FPUH Pruchnik-Królikiewicz Sp.k.,ongoing
+58,6f790959-a3e0-4b3b-b56b-0715e7180322,Gabinety Łodej,ongoing
+59,964ddb77-6025-40ae-b535-45792da44da1,Grupa Kuśka,ongoing
+60,56672017-555a-4085-8578-bab326a97465,FPUH Trzos,ongoing
+61,09215f4f-9edb-45f2-8787-ddfb5697f17c,Kostek S.A.,ongoing
+62,4a1eb1b7-955d-4e77-bb5e-b8662640211e,Fundacja Elert,finished
+63,7a62722e-1d69-49fc-8b1c-b8bd2130260c,Jacak-Labudda S.A.,ongoing
+64,122411e6-ba89-42dd-85e6-9ea9db66bfda,Fundacja Policht,ongoing
+65,1bd09448-6a2b-4200-8c9a-0ae15419eefc,Żugaj Sp.j.,ongoing
+66,cc417e7c-d741-4609-964a-e90979585e69,Grupa Wenda,ongoing
+67,6d316b4a-7f6b-4793-b318-ad4c1db2b452,Plich Sp. z o.o. Sp.k.,ongoing
+68,27d99a23-e4f7-425e-afe6-790abc18a40b,Chojna-Sopata Sp.j.,ongoing
+69,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,Stanisławek i syn s.c.,finished
+70,38974df5-bff7-43ce-b2b2-c49215ace7a1,Siwczak Sp. z o.o.,ongoing
+71,84dd6da6-8e75-4eb7-a4d0-9913191b8adf,Fundacja Wołoszyk,ongoing
+72,ade6c5e9-b6e3-45f6-95bb-440dc9cd4af9,Twardy-Damps Sp. z o.o. Sp.k.,finished
+73,42cb6d1d-ffc5-43d5-bd0b-a70e385af463,Gabinety Płoskonka-Raźniak S.A.,ongoing
+74,d26d5396-1058-4e8c-9d71-73e55bc7fdeb,Matacz Sp.j.,ongoing
+75,1e70e799-33a1-41c2-ad4a-b155c09fcd8f,Fundacja Wiaderek S.A.,ongoing
+76,f2ad985f-ff3e-4ba1-8ac7-28b4a41865bf,Ksel-Rurarz Sp. z o.o.,ongoing
+77,5c949381-60c6-43ed-b55a-3ac132ae2a20,Gabinety Balik-Wyrobek s.c.,ongoing
+78,905c053b-25fd-4cbe-bce7-1b48fba52e59,FPUH Mądro Sp.j.,ongoing
+79,ade7cef3-7ed2-4c2f-856f-3d95e0ae1a1b,Gabinety Kobak,ongoing
+80,ab899605-a293-4b3b-bfa7-4d8aff88ec82,Sporek-Różak S.A.,ongoing
+81,f66ac168-b4a1-4a79-9718-ada2027c013f,Gabinety Przewoźniak,ongoing
+82,dfde2281-25fb-4f3d-866d-7002091472ad,PPUH Gierasimiuk,in preparation
+83,953c178e-6106-4a8c-97a3-283c27e969e2,FPUH Stochaj,ongoing
+84,ccc93ff7-10fc-497d-b86e-30efce9b2e70,Kusik i syn s.c.,ongoing
+85,399f8a8f-10fc-4eee-8a17-27f7ea5f24b6,Masny-Mendyka Sp. z o.o.,ongoing
+86,54a1d505-72d6-4c20-980d-6a1cc2472fd6,Myrcha-Naglik i syn s.c.,in preparation
+87,5f0ef320-f7f6-4e7f-b5f2-bc20a7f5195c,Fundacja Świt-Ornat Sp. z o.o.,ongoing
+88,cb4d18d6-adb6-4a35-9734-a26c92e94e89,Gabinety Kohnke-Jarczyk Sp.k.,ongoing
+89,34c3494a-c12e-49b8-a7e1-3ed86d265dd8,PPUH Witkowicz,ongoing
+90,7b72590b-f8f8-4071-9360-da696af79ad2,PPUH Szwałek S.A.,ongoing
+91,053e4b42-cc4d-4021-9d62-0222d9efe28b,Bejger S.A.,ongoing
+92,4124405b-91fc-4e88-81c1-6e984d6cd782,Grupa Kołtuniak,ongoing
+93,d334886f-f164-49d8-8312-ece2dc2151e1,Gabinety Drela,ongoing
+94,0ff030b8-6238-40a0-8f5e-9ea362584ab3,Zdancewicz-Jonczyk S.A.,finished
+95,5582a3bd-d476-4e38-babd-4745497e9f1a,Kochanowicz Sp.j.,ongoing
+96,e3d48408-7de8-4234-a412-579d6af944e0,FPUH Golon-Plizga Sp.k.,ongoing
+97,5a4f4145-fc98-4279-8f6f-111c26c06e67,Grupa Cieciora Sp.j.,in preparation
+98,19faa06e-0c0a-4967-b579-501a62fda854,Gabinety Warych Sp. z o.o.,ongoing
+99,21f8c156-9e0d-445b-992a-34a1084fa819,Grupa Hasiak,ongoing
+100,31e9ca80-58bf-4b9e-a624-5b598c94af98,Gabinety Pęciak i syn s.c.,ongoing
+101,0f66b32d-e19b-4837-9c6a-4b5e7d859725,FPUH Pancerz-Pasich Sp.k.,ongoing
+102,1fd3af07-a685-4857-967e-5862ef151673,Stowarzyszenie Mik-Solnica S.A.,finished
+103,cca1a034-633c-4f79-a96a-a1aff55e3aa2,FPUH Kretowicz,ongoing
+104,cf6c9992-fbbf-49e0-ae56-702af521ca9f,Madziar i syn s.c.,finished
+105,09c67417-306a-4871-beef-71cbc915d113,Fundacja Olkowicz i syn s.c.,finished
+106,ca20854d-5b47-4c43-b499-b28c30c32323,Seta Sp. z o.o.,in preparation
+107,06d2ed7c-e6ac-4d8a-8160-ff927c7550f2,FPUH Zięcik-Mleczek S.A.,ongoing
+108,d1c3d1bc-c6be-4432-97ee-0eb03acaaf82,FPUH Osada-Durma s.c.,ongoing
+109,254bf7ae-1d0a-4994-b20b-575d4e28e674,PPUH Midura Sp. z o.o.,finished
+110,101bb5fa-6a67-4623-9ad1-daaaef8d9ff0,Gordon i syn s.c.,ongoing
+111,07dc02b1-f45d-4406-bbf9-bb0127f9e728,Fundacja Migda Sp.j.,in preparation
+112,dd32e231-eb56-4699-bf22-cd1207b6e08e,FPUH Szałaj,ongoing
+113,1f12a0e9-1201-4caa-9a3d-a367141b1a1b,FPUH Rzońca,ongoing
+114,028d042b-2d8b-4b41-990e-83da586f1721,Tatarczyk-Zaraś Sp. z o.o.,ongoing
+115,353e0c86-24ae-4a79-a4b8-298798ba0f0e,Leonowicz Sp.k.,ongoing
+116,e6a1a40b-f031-44b9-bb6b-0095ac7b7ab2,Nitek Sp. z o.o.,ongoing
+117,064f768d-b080-4003-9e7f-503c4b1347f6,Spółdzielnia Matula-Iwanow S.A.,ongoing
+118,582dd972-7a08-4ca8-9cc5-a8a0743c7e9d,Spółdzielnia Faryna,finished
+119,55c36c3d-5cbb-4080-b547-5c5ef76dce6e,Stowarzyszenie Szambelan s.c.,ongoing
+120,97d01e70-2f1d-4bef-93b5-3b92a2cb5f38,Jędrusiak s.c.,ongoing
+121,606821d6-280a-47ee-8ec9-85ff94b28b9d,Szymanik-Bochnia S.A.,in preparation
+122,3c9590d3-3e2a-4d3e-8222-134550de4292,Jeske-Pazdan Sp.j.,ongoing
+123,21da132c-dc68-44fd-8bd7-696fa9c72e7b,Grupa Pierchała-Rajchel Sp.k.,ongoing
+124,4ca49aaf-6b94-4e09-a1cc-14b312bdf75f,Fundacja Bejger-Garczarek s.c.,in preparation
+125,5ac4b6c7-a310-44dd-8c4b-91fe6c148fc6,Krekora Sp.j.,ongoing
+126,f2ed33e1-a315-4940-9e87-905aa1fdcdf1,Grupa Zacharewicz-Stasica Sp. z o.o.,ongoing
+127,e6b920da-ba6a-498f-b642-c8f36acf49eb,Fundacja Węgrzynowicz,ongoing
+128,788c161e-f3cc-4d8a-8b16-78e45f20f406,Moździerz i syn s.c.,ongoing
+129,8ee4fd02-1cb6-4f67-86e7-85ad1bce35d8,FPUH Herok-Czulak Sp.k.,ongoing
+130,2f751bde-6616-4e5b-ada2-fc4c7237d420,Fundacja Szmurło S.A.,ongoing
+131,efe6171b-5723-4959-b415-1accf5a3e893,Spółdzielnia Idec-Gryska Sp.k.,ongoing
+132,c149fa8e-7bb8-42f1-9624-d318a32652e8,Fedak-Cierpisz i syn s.c.,ongoing
+133,764657ca-9e65-436c-b2f7-74b1b2f11ef9,Kowaluk Sp. z o.o. Sp.k.,ongoing
+134,a100ed14-fa92-4d28-84c5-36fb1d4d1180,PPUH Zera,ongoing
+135,c058a332-b4cf-4fa8-ac98-f73d27fe1b4b,Grupa Gajcy Sp.j.,ongoing
+136,8b32992a-3b7c-4f9a-b5fe-ba5ec2953f51,Stowarzyszenie Siedlarz Sp. z o.o.,finished
+137,ab2212c9-e23b-480e-8523-dbbb1eeed219,Pajda Sp. z o.o. Sp.k.,finished
+138,94e4cc44-e3fb-4bda-86ae-9d5c65ff6adc,Fundacja Dziedzina Sp.k.,ongoing
+139,df0d6301-488c-4c4e-9a94-14b840aaec7a,Gwizdek-Konsek Sp. z o.o.,ongoing
+140,4e3c0f2d-4332-459d-8ad0-0273120961ea,Stowarzyszenie Wita-Sanetra i syn s.c.,finished
+141,c31277fd-eb83-4f16-a404-d8083fc18c00,Kuropatwa-Sołek i syn s.c.,ongoing
+142,22696227-8513-491e-8862-2a674a294067,PPUH Surmiak-Kuświk s.c.,ongoing
+143,a274c0d7-f4a5-4c36-a92a-7bce1af55c26,Fundacja Szczepan-Zmyślony i syn s.c.,in preparation
+144,5f2e9167-713e-4eb1-8ad1-2b4c47534952,FPUH Wołoch-Szczerbiak Sp. z o.o.,ongoing
+145,66b62087-61a5-4fdd-9eda-4209b270af55,Fundacja Lalak-Małycha Sp.k.,ongoing
+146,79009c61-a1d2-4ebc-9aa3-892a4c88b9d8,Spółdzielnia Sutor Sp.j.,ongoing
+147,7e22e1b7-5178-4032-8066-b49bb1d792a0,Lada Sp. z o.o. Sp.k.,in preparation
+148,0d6a78b0-7eda-4ab9-bec6-0ffe248f4a25,Spółdzielnia Ziemkiewicz-Idec Sp.j.,ongoing
+149,02969326-fe2d-4d1d-a377-b008641659c0,Grupa Jaje-Maślach Sp. z o.o.,ongoing
+150,ecb3d561-bdf0-4015-b305-ee95afb120f4,Grupa Sadlik Sp. z o.o.,in preparation
+151,ffeb5d5f-00f5-40f4-9ef1-c8461dbc24fd,Gabinety Fedyk,in preparation
+152,e695f8ba-ba23-48fe-8ae3-02f3b31e9be8,Pachołek-Kajdas s.c.,ongoing
+153,6f1bdd07-1aff-41ae-b0f2-c48549b564fb,FPUH Skierka Sp.j.,ongoing
+154,a5e3a719-6bf5-4dfd-94a8-762b2b12c92c,Spółdzielnia Klin Sp.k.,finished
+155,2114c2d6-50ea-4324-862f-78e125c29b6a,Lenda-Kuska Sp. z o.o. Sp.k.,ongoing
+156,6d62e40c-638d-421a-bbc5-9e92ca1209ad,Fundacja Korbut S.A.,ongoing
+157,f0a61c5e-7074-41d4-b239-d04bcbab5b51,Smagała-Puch Sp. z o.o.,ongoing
+158,3be95767-0884-4d16-a36a-bf8ce7e3f52c,Zgoła S.A.,ongoing
+159,a358cb1d-be3f-4afd-8e96-ed9b5d158e44,Starzak-Korzeniak Sp. z o.o. Sp.k.,ongoing
+160,de6c8762-b475-415e-962d-5c729ccd3e1f,Gabinety Bienia-Miros Sp. z o.o. Sp.k.,ongoing
+161,a1c2d9bf-0dcf-435b-b552-c6e86953a115,FPUH Mularz-Matyjaszek Sp.k.,ongoing
+162,7460d20d-94b9-4db5-ae3c-18c9ef1fa0a3,Stowarzyszenie Zander Sp.j.,ongoing
+163,0acfeba4-4410-40ae-9652-5ce03725bd0c,Myszk S.A.,ongoing
+164,a795ac54-4a30-47cd-80fd-ec23598ca3b4,Wasil Sp. z o.o.,in preparation
+165,38dfe76b-ae35-4290-ad80-ab08c963d148,Fundacja Kozdroń-Michniak Sp.j.,finished
+166,1a32e148-9bba-4838-96e9-b78d315e8080,Grupa Joniak-Rećko Sp. z o.o. Sp.k.,ongoing
+167,533c9a31-e4ba-4d78-b4ab-a9fc8930d179,Grupa Koźlak,finished
+168,14827a89-5e63-44c6-b0ac-79dd0b5aafef,Dietrich-Kłosiewicz Sp. z o.o. Sp.k.,in preparation
+169,4053b188-339d-48f5-9658-b1b33012ae1c,Stowarzyszenie Kacperczyk,ongoing
+170,7b69e690-4130-4879-a279-d944dc2897c6,Gabinety Kamieniak,ongoing
+171,ef26a5b7-4e49-4f56-8b64-8acd3d6e2667,Grupa Zysk-Kubasiewicz Sp.j.,ongoing
+172,eaca3811-0c26-45d9-b02d-c88ab97fb3bb,Fundacja Kudłacik Sp.j.,in preparation
+173,3dbba3af-14db-4d22-95ea-e9d21e3d59d0,Sibiga i syn s.c.,ongoing
+174,eb52ee01-e25e-4512-a9fc-bef0275f275c,Sulich-Wardziak Sp. z o.o.,ongoing
+175,c13c6688-8f1b-4be1-ad4b-a69cd16903f2,Grupa Trzmiel S.A.,ongoing
+176,d7285256-20ca-45ab-b855-3ac87d718591,Stowarzyszenie Wochnik,ongoing
+177,8e9b185e-1b77-4deb-af51-ea78fea2a33a,PPUH Migoń,ongoing
+178,4bf0ae53-b608-4c97-b380-dcfcc9fe6036,PPUH Adrian Sp.j.,ongoing
+179,45c596d4-42d0-4ba3-a265-2c9e89421c6d,Szybiak-Piesik s.c.,ongoing
+180,2c2df3c2-1951-4f87-b63f-83c6c89309e9,Spółdzielnia Walkusz Sp. z o.o. Sp.k.,ongoing
+181,a8dce886-ff45-43fe-bc6f-f6ace139d15d,Pędrak s.c.,ongoing
+182,0cbdc014-dbed-442e-ada3-13e783e9973b,Szajek Sp.k.,ongoing
+183,bcbe9a42-f89d-4fda-9e45-424145c190a8,Stowarzyszenie Olchawa-Stępka Sp.k.,ongoing
+184,483c1a4e-a91d-42cd-8bf0-6f64b4178592,Kremer-Paczos S.A.,ongoing
+185,acb5959f-4eb9-4768-84a5-b1c31095e497,Spółdzielnia Dydak,finished
+186,9501e917-496d-427b-baf2-f402a0e624f1,Pusz-Hamrol Sp. z o.o.,ongoing
+187,5df2e073-53f0-4099-813d-d49a8d99743c,FPUH Orkisz-Kolek S.A.,ongoing
+188,f9cb2ee8-27be-4381-a544-c97de0789f97,Białczyk-Flaga S.A.,ongoing
+189,ea455fc7-c80c-4483-b4dd-7624c3d9b3b0,PPUH Cymbała Sp.k.,ongoing
+190,bb891746-3c3d-4911-b6a5-2df9f8247e70,Rozumek-Duszkiewicz i syn s.c.,ongoing
+191,974d9d49-9bc6-4882-9a7c-831a62759469,Gromala-Kobak Sp. z o.o.,ongoing
+192,86c47b06-06a8-422f-957c-af0d9db3466d,Stowarzyszenie Sajda-Symonowicz Sp. z o.o. Sp.k.,ongoing
+193,8e36b82f-3856-4e31-b568-c9c6033c1469,Zuziak-Kielich Sp.j.,ongoing
+194,7b1d4049-bcc4-416d-b40d-2a37cf2a2198,Stowarzyszenie Zander-Dytrych Sp. z o.o.,finished
+195,66dfeb1e-9ab3-4c27-a32f-8c5b425832c0,Swacha-Januchta i syn s.c.,ongoing
+196,0f2670d2-f19b-43da-a253-dfe34aaeb212,Kuzia-Puto Sp.k.,ongoing
+197,57d9af8d-3fe6-4f90-b631-681ebf401e04,FPUH Pitek Sp.k.,ongoing
+198,581ba307-4296-4873-b9d5-b552a867a0f0,Teterycz-Zbroja Sp. z o.o. Sp.k.,finished
+199,bb78eb2d-0ee5-444d-8a1d-8b4292d6ff73,Pleskot-Galik Sp.j.,in preparation
+200,3dd0c866-0649-4ef5-8fb2-de1ea0b976c2,Wika S.A.,finished
+201,11091978-53a0-41a6-a764-7989f20e8bda,Matyszczak Sp.k.,ongoing
+202,ec071cf1-e476-48ec-a2c7-1d046c32faff,Śliż-Nazarewicz S.A.,ongoing
+203,a629d332-2d4b-45a4-8fdc-13515ba830dc,FPUH Opalach,ongoing
+204,027752fe-61f6-4c6e-a89c-0559bf4fa4a3,Stowarzyszenie Maraszek s.c.,finished
+205,afc8128a-fb0a-4a90-bc52-b34ecdfa4cc8,Gabinety Kargol s.c.,ongoing
+206,f436498e-68af-42b8-9f62-6a97ebe7ef91,Spółdzielnia Hojka s.c.,ongoing
+207,a9774b71-de6d-4d7e-9f31-2acb2362dbc1,Gabinety Pela-Kidawa S.A.,ongoing
+208,d7133061-3cc4-4772-947e-39181463c5f8,Paw-Galik i syn s.c.,ongoing
+209,c9a57cd1-be28-48c5-ab39-5c4ee575ae93,Spółdzielnia Iciek-Gąbka Sp.j.,ongoing
+210,1a895c62-990e-4f01-9d5a-acc7ed7a6edf,FPUH Gronostaj-Puch S.A.,ongoing
+211,40a21015-0a40-4379-9a1a-b3579d6c84af,Gabinety Meissner,ongoing
+212,a032149d-06fa-4b60-a063-75b8bb937826,Wąsek Sp. z o.o.,ongoing
+213,269b6c3b-abf0-44bd-8af0-a6fe5bbdd1f4,Spółdzielnia Kierat Sp. z o.o. Sp.k.,ongoing
+214,679b29e8-c0c3-4da9-bc49-b58e298b7e5d,Stowarzyszenie Idzi,ongoing
+215,03c8e104-6480-4dc0-b1c5-8f447e083c1b,PPUH Czylok,ongoing
+216,fa3222c4-780a-4abf-8cea-309b49c94aa5,Tomzik s.c.,finished
+217,ef208346-432f-4308-8d56-206d920c3de9,Strzoda Sp.j.,ongoing
+218,58ba0bf3-675e-4c52-9eb9-5739b8acdd81,Grupa Legutko Sp. z o.o. Sp.k.,finished
+219,4100e665-08c6-46a9-bee4-e6bcbd6deb92,FPUH Smykała-Wojciech Sp.k.,ongoing
+220,877e5ea1-c339-43f2-b504-5f77c317c3d4,Stowarzyszenie Chwalisz-Drożdżal Sp. z o.o. Sp.k.,ongoing
+221,fb52451d-90e7-41a1-9db1-dfdc357f0a64,Gabinety Boruń,finished
+222,88644581-b857-4478-ac82-5818960da788,Spółdzielnia Drej,finished
+223,d8a1a546-54a6-487c-a72e-aa36e642965c,Pospiech i syn s.c.,ongoing
+224,f3ca5f64-27fa-4b8a-909b-471c0d1f0a7f,Stowarzyszenie Jeske,ongoing
+225,7eaf1679-52b0-4994-8b1d-d9fda02ebb76,PPUH Graś S.A.,ongoing
+226,918ff358-2408-43c2-89d0-a7f400425fc6,Gogol S.A.,finished
+227,f2d7fe55-0262-45aa-adec-31ef57627626,FPUH Budych Sp.k.,ongoing
+228,9cb9f9aa-bf4d-4eaa-81f2-005bc7537df5,Mielcarz-Toczko Sp.j.,finished
+229,2c805ac7-d484-47df-b325-4f2d47595b01,Spółdzielnia Burchardt-Latko Sp.k.,ongoing
+230,f110397a-1c2c-4a34-9466-5d45284b7bcd,FPUH Stranc-Kutek s.c.,ongoing
+231,4408c04c-6f44-4806-8137-8e75627b9de7,Stowarzyszenie Mateusiak,ongoing
+232,d1db32f8-fda8-44ea-874d-d25c6dbf859c,Stowarzyszenie Łodej,finished
+233,fd768f63-5163-4e1d-8df7-a26786fadb0e,Spółdzielnia Buchholz,finished
+234,2446ecee-caa0-4679-ae83-a7b2c857d8c3,Bakiera s.c.,finished
+235,b38e5adb-a93f-4902-88de-c9ab27c3e784,Fundacja Zegar-Franas Sp. z o.o.,ongoing
+236,a2fc7fe3-6961-40ac-a994-f3e68fc4edd3,Gabinety Gęca-Trojanowicz S.A.,ongoing
+237,8772c347-5cba-4be3-8404-64c0e65a3ae4,Łukasz-Wrześniak Sp.k.,ongoing
+238,7f3ab7dc-b339-4a6e-a0b8-7e455abec113,Jędra Sp.k.,ongoing
+239,3df8eeef-e44a-41f6-9251-ad083fcb34fa,Spółdzielnia Makulec,ongoing
+240,92b95731-13f2-4c86-ab83-f00fed2ee36f,Spółdzielnia Wawrzonek Sp.k.,finished
+241,e51c0cdb-8247-44df-9d1f-8e30731c877a,Kulisz S.A.,ongoing
+242,ed9081c1-10b2-46e5-ac6e-61bd70c455a9,FPUH Janasz Sp. z o.o. Sp.k.,finished
+243,c1fa924e-e1bc-4fb2-afed-6cc540b000a4,PPUH Dworniczak,ongoing
+244,7e15aa2c-07b6-428f-8e98-ce2517337a7c,Irla Sp. z o.o. Sp.k.,ongoing
+245,62f9dbb2-65dc-4c6c-8329-870a33e9e55e,Gabinety Kasiak Sp.k.,in preparation
+246,e1514a0d-b275-46ea-a3a6-aae9ac4ebce0,Sypuła Sp.j.,ongoing
+247,2076d932-919c-41ed-9471-33e75ac5f4f0,FPUH Widłak-Skubis i syn s.c.,ongoing
+248,ebc16f69-7946-4978-a5e9-675306389bd3,Spółdzielnia Patyna-Jaroszuk s.c.,in preparation
+249,01267789-5c6b-4596-98f1-6c91dd6d47e4,Chomiak Sp.k.,ongoing
+250,789a2829-8a66-4359-abe0-a1771c5e1698,Sura i syn s.c.,ongoing
+251,067fece7-f1ff-46dc-b45a-a79bd855fb35,Fundacja Stochmal,in preparation
+252,a2b4d215-c3c5-407d-be29-2238fbfbe602,Fundacja Woroch,ongoing
+253,6779de0d-25c1-4f67-987d-616d2462c274,PPUH Jędruch,ongoing
+254,224af354-e490-4635-a019-10c629b49664,FPUH Monkiewicz Sp.k.,ongoing
+255,bad4c288-0bf5-4ed8-b93c-2989c399fd7f,Grupa Startek-Hawro Sp.k.,ongoing
+256,6323c57f-a197-4954-b283-5498be80793e,Natanek-Olewniczak s.c.,ongoing
+257,8f4ed442-14aa-4efe-9532-51c9d020baee,Drewnik-Żurawik S.A.,ongoing
+258,b34dc8b0-53f3-4158-82ce-91c0ccd9f2af,Gabinety Wolan,ongoing
+259,ffa08419-74db-4c40-af7d-ee1a8476af98,Bąbel-Gładka Sp.j.,ongoing
+260,a1ee691a-09e1-43b0-a71f-27728d7f7ba5,Spółdzielnia Toma-Wilkos Sp. z o.o.,in preparation
+261,d15b5985-50ea-41d2-81f8-190be55e44b8,Twardzik Sp.k.,ongoing
+262,3d1cd68c-9c63-465b-b4e0-4bbbca8033a7,PPUH Sykut Sp.k.,ongoing
+263,2287401b-a7bb-4a76-a9a4-a856556b20fa,Gabinety Romankiewicz Sp. z o.o.,ongoing
+264,848610cf-d212-46c2-9519-401c8b1f1137,Grupa Goliasz,finished
+265,6d7fe9b2-1a9e-4547-947a-08acc65d8e4e,Stowarzyszenie Behrendt-Dulas Sp. z o.o. Sp.k.,ongoing
+266,5cafa108-832c-4b79-a0c8-e5a0d560e64c,Margol Sp. z o.o. Sp.k.,ongoing
+267,bbd743b3-2ebe-437d-85d1-56b6eceec38d,Patalas-Rogal s.c.,finished
+268,a5387901-69f1-4ccd-8b4c-ba0a317eeb1d,Matyjasek Sp. z o.o. Sp.k.,finished
+269,0d5f024a-e963-444a-a3b7-4101cbf8e26a,Gabinety Kolka-Mytnik S.A.,ongoing
+270,ed469bf4-d5cf-4dc4-ab1c-3ba45b9e42d0,Ziarnik Sp. z o.o.,ongoing
+271,e6df12ce-9aa9-49f1-9adf-fd0470d22718,Gabinety Kurzyna-Kretek Sp. z o.o. Sp.k.,ongoing
+272,74219d3e-cdc3-4412-995e-17e1900f72f7,Spółdzielnia Sieja Sp.j.,ongoing
+273,f30459cc-30c4-4d61-839f-4b86cd6a5e0c,Grupa Jewuła Sp. z o.o.,ongoing
+274,05765983-59cd-412a-86b4-2b6f1f94e3c8,Bondaruk-Pompa Sp.k.,ongoing
+275,52a33c33-037e-4725-a5a1-bdaea747795e,Gabinety Wszoła Sp.k.,ongoing
+276,79fe0a1b-7efb-4877-b1e1-86d7df254e5d,Szwaj Sp. z o.o.,ongoing
+277,ca6d3e06-66e5-4767-9cb3-2e4a891dfa7b,Grupa Skolik,ongoing
+278,d39a4bb0-d62b-48d4-9880-fa4b840fbb0b,Araszkiewicz Sp. z o.o. Sp.k.,finished
+279,f7d870b6-78ac-4704-9936-5f61f484878d,Golda s.c.,finished
+280,f5b7751f-497e-48aa-8e03-a34da022dfee,Dzienis Sp.j.,ongoing
+281,8c5c192f-f1c5-4dda-a828-03705672ebc7,Skrobek-Szmurło i syn s.c.,ongoing
+282,ae09ccfb-a3de-481f-a8b2-99bcebbe1a41,Kubaczyk-Siatka Sp. z o.o. Sp.k.,finished
+283,f5657d00-7ba0-4f58-861a-e8d1f212cc6f,Grupa Mamcarz S.A.,ongoing
+284,2b863694-541d-4a81-8815-642ca2bb6283,Rząd-Twardosz S.A.,in preparation
+285,5d005716-7680-491b-abb6-204ee0db22d3,Spółdzielnia Bartkowicz-Sobiło i syn s.c.,ongoing
+286,956a2f20-ee28-4bb7-a982-100c03729e33,Jaje Sp.j.,ongoing
+287,fff83cec-2c05-4870-8d34-bcd7b7ed75b4,Kwoka-Orkisz i syn s.c.,ongoing
+288,09c64c1d-00f2-4603-8295-1fe052c553b5,Klemczak Sp. z o.o.,ongoing
+289,c7405255-25cf-41c4-9c89-929692b035e0,Piekacz-Ziarno Sp.j.,ongoing
+290,6faefeda-6b32-4d48-86c4-e109c9a6e611,FPUH Gołoś-Mytnik S.A.,ongoing
+291,829fe7ba-5d30-4b82-a348-e1b7ec2b5e21,Osica-Wojtunik Sp. z o.o.,finished
+292,a89f5916-90ec-4374-a862-dc24213a6ad8,Grupa Janc,ongoing
+293,789c3c72-3ee2-4e68-afa0-0319e54ce0de,Spółdzielnia Gryszkiewicz S.A.,ongoing
+294,eba08424-65a5-4c1f-bb2e-cfc5a53011a2,Grupa Policht-Deryło Sp. z o.o. Sp.k.,ongoing
+295,8ad6cc51-5f2e-4048-86ce-563de291f5e1,Dargacz s.c.,ongoing
+296,3cad275a-e072-4aae-b97c-27bfc7938520,Grupa Fac,in preparation
+297,6409df32-cc4e-46da-9e09-89b952526d45,Gomoła i syn s.c.,ongoing
+298,647640a1-b6a6-49ef-a4ea-c3f40c78c2f9,Zdobylak Sp.j.,ongoing
+299,64a2bc48-f9fb-4010-9ec7-72b7bb22fa31,Grupa Frukacz Sp.j.,ongoing
+300,2b6b7b42-2950-4326-b644-d1839aabd22d,Fundacja Podsiedlik,finished
+301,fefc5b4a-eb1d-4061-9717-aa6e28b4d5b9,Gabinety Pich,ongoing
+302,586d7f41-5e47-42a0-aef6-71391ccdd340,Kociemba-Jewuła i syn s.c.,ongoing
+303,c0e0d55b-84ca-47c8-a159-5b4f7901726f,Mysiak Sp. z o.o. Sp.k.,ongoing
+304,531da6ac-956c-4129-b934-718f2d492ca2,Fundacja Wasyluk,ongoing
+305,6e63ffa4-8d2a-4974-8a86-36550a9d499c,Zyga Sp.j.,ongoing
+306,354af1bd-ba56-42f7-a00a-a45e44e1b08c,Spółdzielnia Tyka,finished
+307,2a6f1e47-5b61-492b-9cf6-00ec1c3c8d35,Jambor s.c.,finished
+308,a45335cc-137f-4d2b-b6a9-33cf65fd5f69,Gabryszak Sp.j.,ongoing
+309,2367ad9e-8dcd-4d64-b9e8-e4ee8b7f6d7a,Furgała-Działo S.A.,in preparation
+310,22b3ce34-867a-4ac9-879b-e4e53a6e8f12,Stowarzyszenie Kleinschmidt s.c.,finished
+311,cb10cf68-b769-4470-89bc-f4a8bc6284a8,FPUH Szynkiewicz,ongoing
+312,dac7c336-ea04-4534-b679-6fd3cd74afec,Gabinety Ciuruś Sp. z o.o. Sp.k.,ongoing
+313,a0c30ce9-57ac-49f2-a887-a3a9e63317c3,Stowarzyszenie Słupik-Kryszczuk S.A.,ongoing
+314,bd637b3a-fc0b-4519-a04a-a4a2e983cc1d,Stowarzyszenie Nowotnik-Zadworny Sp.j.,ongoing
+315,78a55d6b-f2de-400f-a3e8-695158b5f052,Stowarzyszenie Wyroba-Tomys i syn s.c.,ongoing
+316,276d7e19-f924-406a-aef5-baef1903b45f,Durlik-Kazubek s.c.,ongoing
+317,ef7f6bc8-fb24-4ba4-b457-7bf7a25130a8,Grupa Molek-Citko Sp.k.,ongoing
+318,a4f0d9c2-9885-4c7f-b475-a526b2b4c281,PPUH Nalewajko-Sadura Sp.k.,ongoing
+319,603803f3-2b2b-4fda-9d43-19b5bb5f15c1,Raba Sp. z o.o.,ongoing
+320,5cb6f1f0-e475-4694-9d8a-c1a902af3382,Stowarzyszenie Budner Sp.k.,ongoing
+321,b259a6a0-9591-4900-9e7c-faad73df770a,FPUH Młodzik,ongoing
+322,ec3826bc-3a8d-4c00-8696-2905cfe4fb66,Mordal-Zyzik i syn s.c.,finished
+323,db3aefa6-c7d0-4862-93f3-6e53e5098f9a,Spółdzielnia Siara-Broniarek Sp.k.,in preparation
+324,fe656bef-e0ef-4989-aab4-65e9d97d2b38,Fundacja Kurcz-Zuziak S.A.,ongoing
+325,67af36d9-af04-4f81-b548-1bf2702cebbe,Grupa Kulon,ongoing
+326,2bdc9c10-6362-41c3-ab6e-c9e0225f5457,PPUH Kiełbowicz Sp.j.,in preparation
+327,a4e0ee5b-1638-425c-8d66-65d8edf2a720,Fundacja Pacholak-Starzak s.c.,finished
+328,7add8fed-0a02-4a60-b49d-4601df983779,Grupa Rembisz-Lazarek s.c.,in preparation
+329,64e322cf-a51d-478b-8d00-b7b27d82fccf,Stowarzyszenie Troć S.A.,ongoing
+330,4d6d99a6-28d7-48b4-9d44-38218a7f03ae,Gabinety Szymajda-Krzykała Sp. z o.o.,ongoing
+331,64aba3f6-7a65-4abe-9188-afa1f660ffd5,Fundacja Romankiewicz-Baka Sp. z o.o. Sp.k.,in preparation
+332,1c622f82-d081-4d92-baca-43f27b777bf2,Spółdzielnia Gruza,ongoing
+333,a88f58c1-237d-4b90-981a-218ecfd64560,Zawalich Sp.k.,ongoing
+334,32d116fe-8f08-463c-9624-88052305e6d3,Muc i syn s.c.,ongoing
+335,c15dfcfc-b325-442c-8eeb-3fd86783b0c3,Fundacja Żelasko-Pacholczak Sp. z o.o.,in preparation
+336,58e760bf-8f3e-44f4-b914-0a61ee65afeb,Gabinety Karyś,in preparation
+337,3a05c0b7-3ddf-45b2-8151-28dbaf8c96a9,Gabinety Szpara Sp. z o.o. Sp.k.,ongoing
+338,5ad8712d-7ee1-42a3-824b-fe48398071b1,Stowarzyszenie Oleksiewicz-Choroś Sp. z o.o. Sp.k.,ongoing
+339,bd2cdb8d-39eb-4a32-ac1b-681192dbd613,Fundacja Siewert,ongoing
+340,49b3fe66-3b4c-4730-a53d-f737c2185e77,Maras-Pyc Sp.j.,finished
+341,5bf26ec8-c814-4d3c-a166-c6aba8f614bd,Fundacja Block,ongoing
+342,1e94eb4b-c74f-43ca-94c6-67bb211e55c3,Stowarzyszenie Męcik i syn s.c.,ongoing
+343,b594b706-a7fb-481e-ba88-a4ab78916712,FPUH Pałyga,ongoing
+344,f902d6c0-5bf5-4279-8704-768e6e927501,Gabinety Peda Sp.k.,finished
+345,1af4321a-ddd3-4779-8879-996dfe38f4eb,Stowarzyszenie Pizoń Sp.j.,ongoing
+346,3e581dd5-eed1-4368-9811-6722277dfc7b,Reszke-Chorążewicz S.A.,ongoing
+347,f9adf8c5-6247-440d-ae5c-eb3d1c275035,Fundacja Józwik Sp.j.,ongoing
+348,ffb59512-fa04-4706-af8d-ff9bfae3fcee,Gabinety Prygiel-Warmuz Sp.k.,ongoing
+349,7c96eefa-4fab-4ad8-8091-a21d6637c09f,Sura-Trybała Sp.k.,ongoing
+350,51306e5c-78c5-4976-9786-72e8006b8fd6,Spółdzielnia Grześków Sp.j.,in preparation
+351,c57842a9-934c-472a-8c72-fe13fbf28c1c,Świadek Sp. z o.o.,ongoing
+352,53a9ec5d-b9b5-470e-b346-f7c6437249fd,Mikusek-Wawszczyk i syn s.c.,finished
+353,3bd5f8a2-073c-46ba-9d39-3bf9b2daa1f6,Grochowina Sp.j.,ongoing
+354,1dd26234-2131-44bd-8127-5a6388da091b,PPUH Glanc-Golon Sp.k.,ongoing
+355,0061fd30-d907-4286-b29c-d43a7751b3fa,PPUH Preuss-Gordon Sp. z o.o.,ongoing
+356,3bfb255e-ed0d-4418-ad58-bce989745cd7,Dubis-Nogieć Sp.j.,ongoing
+357,35c9599f-6f91-49cf-8018-3cfeceb09220,Gabinety Saternus s.c.,finished
+358,95331356-074f-4be0-84f2-0133f45c8840,FPUH Zmuda,in preparation
+359,743397f1-ad5b-4bb2-965a-f699d3bb63d7,Andrys-Kacperczyk Sp. z o.o.,ongoing
+360,b6ffe12c-1a6f-4c9a-b1f7-e90f40709bd4,Wakuła Sp. z o.o.,ongoing
+361,c5a918d1-9eed-443c-a453-6074b13de531,Bartłomiejczyk-Magier s.c.,ongoing
+362,339fbb69-51cd-4c07-a8f7-8b61f9d2b2de,PPUH Męcik Sp. z o.o.,ongoing
+363,e93b4418-b170-41ed-9b04-0be38f41d3e4,Grupa Peszko Sp.j.,in preparation
+364,8c3af69e-7474-4f6f-adbd-b6e57844c2ac,Spółdzielnia Żołnierczyk,finished
+365,90a2b8e1-141b-4896-a092-4d2b41229d75,Stowarzyszenie Kornet-Prokopczuk i syn s.c.,in preparation
+366,59de5319-3f9b-4cfc-b42c-59053bcab3ea,Gabinety Siudek Sp. z o.o.,ongoing
+367,0189a5d9-e355-4369-b931-a26d726e8017,Fundacja Melcer-Żakiewicz Sp.j.,finished
+368,40d2d16f-3db6-42f4-adf2-fc823956fba9,Fundacja Wichłacz S.A.,ongoing
+369,a73e3f3b-5c27-461d-8894-d9fc70df67b9,PPUH Naglik i syn s.c.,ongoing
+370,3006ff85-166a-4a98-af3b-5a9185bab545,PPUH Goworek,ongoing
+371,0f1a6c44-f239-4bb0-9f6c-eec1ac546740,Pytko-Pyda Sp. z o.o. Sp.k.,ongoing
+372,290d07e4-ce1f-4081-9f2d-5db8debaa89f,Fundacja Gebauer S.A.,ongoing
+373,2ae201c0-312a-4c3c-bf00-625769560c06,Grupa Wołodźko i syn s.c.,ongoing
+374,e33e270a-56c6-444d-b60c-e881c5ac7520,Spółdzielnia Gałach-Skubis S.A.,ongoing
+375,b66b6b0b-8af3-4d72-ac4f-449084eaf943,PPUH Witko-Leszczyk Sp.k.,ongoing
+376,e61b4dc6-7e52-4e4f-9e20-3161b050eb01,Spółdzielnia Cieplucha-Krzyszczak Sp. z o.o.,finished
+377,9a9dadd2-e7aa-4070-bcdd-b4cc3e332f35,PPUH Hamerla,ongoing
+378,0ff0952a-0b25-41c4-8021-b6323246b7d9,Pelka-Potoczna i syn s.c.,finished
+379,a92c3c3e-3957-4082-9c27-2c51ac98a368,Kurzac i syn s.c.,ongoing
+380,a54e6c8f-ecb3-477a-acef-5e55840658d1,FPUH Kurpisz,ongoing
+381,29c836e0-3130-4e46-af79-75467e5168dc,PPUH Gietka,in preparation
+382,640ca20c-702a-4b67-b7ae-77585b45cf5a,FPUH Siergiej i syn s.c.,ongoing
+383,258694b6-113c-4836-b7f4-531bfde9d47d,Jakimiak-Kuryłowicz i syn s.c.,ongoing
+384,64e0dab3-efb8-4c63-b42f-338f27e08e2f,FPUH Czerner S.A.,ongoing
+385,0bee2ebd-b447-48bd-9e2d-2454e46232e7,Gołofit S.A.,ongoing
+386,95e19cb6-698e-4cba-9a98-da57166adfc4,Gabinety Bancerz-Lepianka s.c.,ongoing
+387,f5efaa99-010f-4ddf-a225-183835e1392e,Osman-Czuryło Sp.j.,finished
+388,8986148f-8b3e-40e7-a151-787e4f027fe8,Kiedrowicz s.c.,ongoing
+389,c095e099-7e24-4205-bb00-d206f8542953,Węgrzynowicz Sp.j.,ongoing
+390,4fe4b735-5c29-46da-81d7-fbe99df497f1,Stebel Sp. z o.o.,in preparation
+391,9d263e76-3d37-43f8-8ef9-80cec471e21a,Drynda i syn s.c.,ongoing
+392,2743e0df-5e15-428a-833c-f90ff555a628,Stowarzyszenie Fiedler s.c.,ongoing
+393,d6a2c379-e0c6-48a7-8748-f7ea72789d75,Ostafin-Biernacik Sp.k.,ongoing
+394,3a724b9f-56fb-4c72-ad6a-1bfc81be81f4,Stowarzyszenie Stojak-Sych S.A.,ongoing
+395,9045a445-958c-460e-a07f-7f4750c6fa8c,Grupa Bugiel Sp.j.,ongoing
+396,baaa6300-62b2-4fd5-91c6-a2e46f48744f,Hermann Sp.j.,finished
+397,f64e8f4a-ef89-42e7-aa17-06669b6e83a9,Wawrzeńczyk-Kosz Sp. z o.o.,in preparation
+398,3f7512c5-6e05-424d-b49b-93d51e709e19,Gill Sp. z o.o. Sp.k.,ongoing
+399,5804a881-1d8c-4a3b-a261-479043a061c4,Stowarzyszenie Pompa,ongoing
+400,bebbe60d-3085-4e6d-a31c-c5d2cd96a6a1,PPUH Kanarek-Stempniak s.c.,in preparation
+401,e8751766-2953-4a13-8392-79358d5f52c0,Gabinety Linek Sp.k.,ongoing
+402,233e3834-54e2-4ea6-8202-faf9dcebef56,Grupa Jeszka,ongoing
+403,ca687a98-f48e-49a8-aaeb-5a328fad725d,Wojtera s.c.,ongoing
+404,dc7972f0-1338-44b3-854c-a8961aac3ca1,Spółdzielnia Hewelt-Klucznik s.c.,ongoing
+405,58ea0417-3930-41a6-882a-6c15d733f669,Kozdroń i syn s.c.,ongoing
+406,2d5c6415-fedc-48f9-b78b-094cb5178761,Bakalarczyk-Nestorowicz s.c.,ongoing
+407,5931c9b4-7061-46ff-becb-a4c8b2c92c12,Maksym-Jakubiuk Sp. z o.o. Sp.k.,ongoing
+408,da2e6e6c-8c1a-412b-bff9-9f34f94d9109,Kuncewicz-Nieborak i syn s.c.,ongoing
+409,46ddb0ac-20e3-4a4d-bbce-fcd05050f32c,FPUH Pyc-Duras Sp. z o.o.,ongoing
+410,53fd2516-d1bf-4aba-a908-923b1551f819,Gabinety Stochaj,ongoing
+411,08fce7af-52c1-43c7-b33c-4233c833b07e,Cieciora Sp. z o.o.,in preparation
+412,2a9e9a38-1d5a-474c-8da8-40fd4adb0798,Spółdzielnia Przekop,ongoing
+413,72f78920-dd75-46f5-98aa-03838dff06d2,Fidos s.c.,finished
+414,1f69cd43-68bf-4f7e-94dc-2301882ab925,Siebert Sp.j.,ongoing
+415,4bebcf4f-2c94-451d-92fa-3935ff283550,Piksa-Szulim Sp.k.,ongoing
+416,05dd1ef0-0806-48c9-8967-49fbb2e02961,Nehring i syn s.c.,ongoing
+417,f9d0a163-def1-474a-9380-1f2544f06c4e,Stowarzyszenie Kwapień,ongoing
+418,0c661a49-4995-4cf1-baaf-500ca74b3d20,Rejmak-Sakwa Sp.k.,ongoing
+419,98decbf6-4273-4d1c-a3d8-3f2284403b37,Drgas Sp.j.,finished
+420,39b66d71-951a-4518-87e7-7e2b6b291a13,Stowarzyszenie Pietrewicz,ongoing
+421,72e55360-e3ae-412e-bd4f-bfff88653e42,Sojda Sp. z o.o. Sp.k.,ongoing
+422,3b239fd8-0d20-4686-854d-f9b62b66b1c0,Fundacja Sieja S.A.,ongoing
+423,d3100ac5-1932-463c-8eec-95b014c30b50,Błądek-Myszor Sp. z o.o.,ongoing
+424,86861f29-5cb7-4bb9-80ff-34b4e4bd7d57,Grupa Bugiel S.A.,ongoing
+425,677abeb7-44bf-4434-881c-e3f97ff5101d,Fundacja Brachaczek Sp. z o.o.,ongoing
+426,daa6b26a-e30d-44fd-b58c-1e9f2a0b2040,Stowarzyszenie Albin-Lubera S.A.,ongoing
+427,c9f35bf8-4d03-4bdd-8c86-9dea38a7ac54,Dadej-Zyzik Sp. z o.o. Sp.k.,ongoing
+428,3b8ddd5b-2e66-4ecb-86f9-f4e68b4eb003,FPUH Ciuk S.A.,finished
+429,e18d99ce-20fa-4cd3-8f5a-5adec21d3ead,FPUH Rozum-Stebel S.A.,in preparation
+430,4ca49e01-c621-4f7f-bcd4-fb198625dcb0,Stefankiewicz Sp.j.,finished
+431,33251c76-d8ef-45c9-a7a2-d2d0ca3c4050,Zugaj S.A.,ongoing
+432,3665b6a5-634d-4412-816a-5ea8618a4763,PPUH Front Sp.j.,ongoing
+433,16018cc6-db16-4641-a074-17e71a608f0d,Grupa Łęgowik-Haremza Sp. z o.o.,ongoing
+434,fbdc678a-bf33-451d-b629-253502b33be2,Pasieczna-Tylman Sp.j.,ongoing
+435,69967b5c-fc14-4cfe-869a-1289ac91c01e,FPUH Pioch,ongoing
+436,e47c98ea-139e-4ca2-b9e7-f780421cf262,Kabza-Boruń Sp.k.,ongoing
+437,c2f89ef4-0b9b-4b7e-9ba6-20f135bbcdb0,Knapek i syn s.c.,ongoing
+438,3fbdaeed-723d-48f5-b170-78ee112930f2,FPUH Częścik i syn s.c.,finished
+439,a07aeb89-998d-420b-a26d-ded0a9584453,Stowarzyszenie Mateusiak-Ciarka S.A.,in preparation
+440,5df5672b-5ba4-4aa0-aab6-941b59e8484c,PPUH Soczewka,finished
+441,05c2b105-2234-440f-80e5-e8fab0335368,Gabinety Daniec i syn s.c.,in preparation
+442,659badcb-9bca-427d-b319-78ebdafd518d,Fundacja Bok,ongoing
+443,d197b561-79b6-4b95-a3aa-9e6770bc3ec1,Gabinety Sornat,ongoing
+444,da68fa2a-5958-4c94-94f5-edf7e9bf79f4,Fundacja Tylman-Ciesielka Sp.j.,ongoing
+445,4c43745b-8063-4ef2-a534-28bbb20ed719,Gabinety Brodowicz-Walus Sp.j.,ongoing
+446,2adb6a67-83ad-4758-83e1-592e3765002d,Spółdzielnia Smolec-Fryś s.c.,ongoing
+447,c710fab3-881f-43bd-a669-d6b6c1afb76b,Gabinety Sibiga-Sołoducha Sp.j.,finished
+448,6ef4d6b4-424c-422f-977a-a515eac503ff,Fundacja Polnik,ongoing
+449,bac114b5-ca19-45a8-8d5a-2ad386d77094,Linka-Hojda Sp.k.,ongoing
+450,98e16bc0-3385-49c7-84ad-e7b7119b0fb4,Liss Sp. z o.o. Sp.k.,ongoing
+451,0044c690-f17a-4c84-8b3d-7ee7fa9f941a,Szumna-Bareja s.c.,ongoing
+452,a94a29d3-f73c-4dce-a83f-32782c702901,PPUH Kolek,ongoing
+453,fda48455-acac-40dc-824e-860944864d26,Legutko s.c.,ongoing
+454,d4cd82fa-2adf-4824-adae-ec39ea9e062a,Gabinety Księżak,ongoing
+455,bd03c81f-7ff3-4029-92bd-db3b649ec503,Gabinety Szafarz,finished
+456,c8359b91-6e93-4faf-9502-e1d5167ad089,Kidawa Sp. z o.o.,finished
+457,98082cf3-03a7-49aa-ac14-af79c4a0c1cd,Stowarzyszenie Bulak-Klęk S.A.,ongoing
+458,32620328-624a-4dae-abbc-f1f6dedff24b,Spółdzielnia Dyjach,ongoing
+459,26b18865-a878-4876-bf0d-f2ca2dc6c2ac,PPUH Mortka-Wielgos s.c.,ongoing
+460,dc7843b3-e919-45aa-b0c9-9beaa0a1f43f,Minkiewicz-Piórek Sp.j.,ongoing
+461,a5794917-0806-489a-9abf-3e69e5bcd7ed,Huszcza-Konsek Sp.j.,ongoing
+462,ea8713d2-a208-47d8-94ed-1b3b4f7070e6,Spółdzielnia Waloszczyk-Makaruk Sp. z o.o. Sp.k.,finished
+463,fa9fcece-50ed-4af2-a35f-6be1f8b55fb5,Fundacja Wielądek,finished
+464,4502d7f8-54a1-496c-a9ab-fb0d9be57401,Lepak i syn s.c.,ongoing
+465,1b908d6d-e5e6-490b-a8da-2b89c1308a09,Stowarzyszenie Waloch-Strójwąs Sp.j.,ongoing
+466,abc2ded7-6bd8-465f-b2a2-761a9ba66e98,Bartela-Kudela i syn s.c.,in preparation
+467,d01acef6-a829-4aab-afaf-2b68205bf9e7,Prokopiak i syn s.c.,ongoing
+468,bf2b6442-2f9f-4bf9-96b6-b5d01c87284d,Stowarzyszenie Migda Sp.k.,ongoing
+469,6cff30a0-c3ac-432c-af40-5e52199a1949,Stowarzyszenie Protasiuk,ongoing
+470,8252f723-5b0e-4c4b-a2a1-fa451c52d51e,Gabinety Koj-Grochowina Sp. z o.o.,finished
+471,c689f37b-f945-43fe-83cb-8f1e9b9a9bf5,Sakwa-Becker Sp.j.,ongoing
+472,7b38a089-fa4a-4dec-88a8-6e3a62937980,Madzia Sp.k.,ongoing
+473,b3f175d0-15c7-4820-a3f3-e5aed1de4fa8,FPUH Szmuc Sp.k.,ongoing
+474,3590a2e5-0c78-4f2f-b9a1-1816fc7aad95,Grupa Laszuk s.c.,finished
+475,8f6dc117-21ea-41fa-a63e-ab2bc83235cc,Fundacja Przekwas,in preparation
+476,d5562dab-f4a9-44e3-ba4f-4535e45d8903,Grupa Kawulok-Kiciak Sp.j.,in preparation
+477,8f815987-2539-4778-8ada-b689e0dd0541,Megger-Działo s.c.,in preparation
+478,16db36e4-d4ae-4486-ab19-4984f49eb5a6,Fundacja Puła-Kryszkiewicz Sp. z o.o. Sp.k.,ongoing
+479,024d65de-af44-4aeb-a734-162f362da540,Piaseczna i syn s.c.,ongoing
+480,02a007fc-e04e-443c-91f6-3e9bc7361a75,Spółdzielnia Wygoda,ongoing
+481,81de9808-c2ff-447b-9527-b331240eb6c1,Koral-Kloska Sp. z o.o.,in preparation
+482,d66a45e9-52c5-4809-920e-ab0ebd8744d8,Skierka-Maculewicz i syn s.c.,ongoing
+483,3504e26c-5f7e-47d3-960d-0b9e1004d975,Fundacja Morek,ongoing
+484,8923cba1-7874-466b-bc34-e6ebaeaaec48,Grupa Wywiał-Piotrowiak Sp.j.,ongoing
+485,8ace37d3-673e-4518-86cb-b1796239f30a,PPUH Strawa s.c.,ongoing
+486,24cb0b4e-3825-47e1-a80d-240312f378a1,Gabinety Tomalik s.c.,ongoing
+487,120a202f-e11a-45c3-a5ef-c3a9503a65d5,Matulka-Klucznik Sp.j.,in preparation
+488,aa0cc327-1daa-42fc-90b1-5e3da5005582,Korta Sp. z o.o. Sp.k.,ongoing
+489,f0355088-5a2b-47fe-8d7e-444990b6e394,Fundacja Kosowicz i syn s.c.,ongoing
+490,e79d4d5f-ab6f-49e7-be72-544851b5ab77,Fundacja Wilkos-Łapaj S.A.,finished
+491,b9a6edc1-099f-491b-808e-a422c6f6d1d5,Gabinety Zaranek Sp. z o.o. Sp.k.,ongoing
+492,3ff0e579-01c3-4f91-8327-8f64cae1367a,Grupa Buchalik-Bereda Sp. z o.o. Sp.k.,ongoing
+493,3e6fdeb2-9e76-4f95-843e-ebcc6f69ed69,Grupa Nojek-Jędraszczyk Sp. z o.o.,ongoing
+494,5bd38392-91e5-4b3a-8a4e-6eb7f97b8d62,Zaraś S.A.,ongoing
+495,7baf204d-7c6d-44a8-84ee-50715745ef5a,Grupa Pieczyrak Sp.k.,ongoing
+496,a78c1cda-a783-4837-bc74-dbc2c504644f,FPUH Wabik Sp. z o.o. Sp.k.,ongoing
+497,d370c51f-d8e2-4a4c-8d84-344baef472a7,Zdziech-Krenc Sp.k.,in preparation
+498,ff741d1c-a893-4bd3-86a2-9efb7af0cf69,Lazarek-Łosiak Sp.k.,ongoing
+499,948c52c8-e0f2-4eb3-af58-e38149ac2f36,Spółdzielnia Sprawka Sp.k.,ongoing

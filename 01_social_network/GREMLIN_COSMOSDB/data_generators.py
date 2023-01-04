@@ -273,3 +273,98 @@ def generate_skills_file(source_file: str, sink_file: str = None) -> None:
                         'employee_id': employee_id,
                         'skill': skill
                     })
+
+
+def projects_generator(n: int, file_name: str = None) -> None:
+    projects = list()
+
+    fake = Faker('pl_PL')
+    Faker.seed(0)
+
+    statuses = ['in preparation', 'finished'] + ['ongoing'] * 5
+
+    for i in range(n):
+        project_data = {
+            'id': i,
+            'name': fake.uuid4(),
+            'client': fake.company(),
+            'status': statuses[random.randint(0, 6)]
+        }
+
+        projects.append(project_data)
+
+    if not file_name:
+        for project in projects:
+            print(project)
+    else:
+        with open(file_name, 'w') as f:
+            fieldnames = ['id', 'name', 'client', 'status']
+            csvwriter = csv.DictWriter(f, fieldnames=fieldnames)
+            csvwriter.writeheader()
+
+            for project in projects:
+                csvwriter.writerow(project)
+
+
+def get_projects(file_name: str) -> list:
+
+    projects = list()
+
+    with open(file_name, 'r') as f:
+        csvreader = csv.DictReader(f)
+        for row in csvreader:
+            projects.append({
+                'id': row['id'],
+                'status': row['status']
+            })
+
+    return projects
+
+
+def assign_employees_to_projects(employees_file: str,
+                                 projects_file: str,
+                                 sink_file: str) -> None:
+
+    projects = get_projects(projects_file)
+    last_index = len(projects) - 1
+
+    fake = Faker('pl_PL')
+    Faker.seed(0)
+
+    with open(employees_file, 'r') as source:
+        with open(sink_file, 'w') as sink:
+            csvreader = csv.DictReader(source)
+
+            fieldnames = ['employee_id', 'project_id', 'start_date', 'end_date']
+            csvwriter = csv.DictWriter(sink, fieldnames=fieldnames)
+            csvwriter.writeheader()
+
+            for row in csvreader:
+                project_id = random.randint(0, last_index)
+                while projects[project_id]['status'] == 'finished':
+                    data = {
+                        'employee_id': row['id'],
+                        'project_id': project_id,
+                        'start_date': fake.date_between(
+                            date.fromisoformat(row['hire_date']),
+                            date(2022, 1, 1))
+                    }
+                    data['end_date'] = fake.date_between(
+                        data['start_date'],
+                        date(2022, 1, 1)
+                    )
+                    csvwriter.writerow(data)
+                    project_id = random.randint(0, last_index)
+
+                data = {
+                    'employee_id': row['id'],
+                    'project_id': project_id,
+                    'start_date': fake.date_between(
+                        date.fromisoformat(row['hire_date']),
+                        date(2022, 1, 1))
+                }
+                data['end_date'] = fake.date_between(
+                    data['start_date'],
+                    date(2022, 1, 1)
+                )
+                csvwriter.writerow(data)
