@@ -16,6 +16,13 @@ LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAP
 MERGE (s: Skill {name: row.skill})
 RETURN s
 
+//link skills with specialisation
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAPHS/main/01_social_network/_data/skills.csv' AS row
+MATCH (s: Skill {name: row.skill})
+MATCH (sp: Specialisation {name: row.specialisation})
+MERGE (s)-[:IN_SPECIALISATION]->(sp)
+RETURN *
+
 
 //load employees
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAPHS/main/01_social_network/_data/employees.csv' AS row
