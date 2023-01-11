@@ -1,36 +1,53 @@
-skill
-AWS
-Java
-Python
-Scala
-Spark
-Hadoop
-NoSQL databases
-relational databases
-SQL
-Microsoft Azure
-Google Cloud
-Javascript
-Typescript
-React
-Angular
-HTML/CSS
-Tableau
-Firebase
-Microsoft Power BI
-Kotlin
-Android
-IOS
-Flutter
-Xamarin
-React Native
-PyRestTest
-Postman
-JUNIT
-Spock
-Docker
-Kubernetes
-Puppet
-Chef
-Docker Compose
-Terraform
+skill,specialisation
+AWS,Big Data
+Java,Big Data
+Python,Big Data
+Scala,Big Data
+Spark,Big Data
+Hadoop,Big Data
+NoSQL databases,Big Data
+relational databases,Big Data
+SQL,Big Data
+Microsoft Azure,Big Data
+Google Cloud,Big Data
+Javascript,UI
+Typescript,UI
+React,UI
+Angular,UI
+AWS,UI
+Microsoft Azure,UI
+Google Cloud,UI
+HTML/CSS,UI
+Tableau,Data Analysis
+SQL,Data Analysis
+AWS,Data Analysis
+Microsoft Azure,Data Analysis
+Google Cloud,Data Analysis
+Firebase,Data Analysis
+Microsoft Power BI,Data Analysis
+Java,Backend
+PythonAWS,Backend
+Microsoft Azure,Backend
+Google Cloud,Backend
+relational databases,Backend
+Kotlin,Mobile
+Android,Mobile
+IOS,Mobile
+Flutter,Mobile
+Xamarin,Mobile
+React Native,Mobile
+Python,QA
+Java,QA
+PyRestTest,QA
+Postman,QA
+JUNIT,QA
+Spock,QA
+AWS,DevOps
+Google Cloud,DevOps
+Microsoft Azure,DevOps
+Docker,DevOps
+Kubernetes,DevOps
+Puppet,DevOps
+Chef,DevOps
+Docker Compose,DevOps
+Terraform,DevOps

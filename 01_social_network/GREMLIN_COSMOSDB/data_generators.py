@@ -364,3 +364,17 @@ def assign_employees_to_projects(employees_file: str,
                         date(2022, 1, 1))
                 }
                 csvwriter.writerow(data)
+
+
+def save_skills_to_csv(file_path: str) -> None:
+
+    all_skills = skills_generator()
+    labels = ['skill', 'specialisation']
+
+    with open(file_path, 'w') as f:
+        csvwriter = csv.DictWriter(f, fieldnames=labels)
+        csvwriter.writeheader()
+
+        for specialisation, skills in all_skills.items():
+            for skill in skills:
+                csvwriter.writerow({'skill': skill, 'specialisation': specialisation})
