@@ -1,101 +1,101 @@
 id,name,client,status
-0,e3e70682-c209-4cac-a29f-6fbed82c07cd,Grupa Bek s.c.,ongoing
-1,c8a70639-eb11-47b3-a7a9-c3787c65c1e5,Fundacja Gabara,in preparation
-2,37ebdcd9-e87a-4613-a443-df789558867f,Spółdzielnia Ziętal-Grabias i syn s.c.,ongoing
-3,40212ef7-cca5-45a1-9e4d-6e3c1846d424,FPUH Antoszczyk-Steciuk S.A.,ongoing
-4,12e0c8b2-bad6-40fb-9948-8dec4f65d4d9,Fundacja Małycha,ongoing
-5,50f24455-6f25-42a2-9a92-118719c78df4,FPUH Turlej-Pleban Sp.j.,ongoing
-6,42af9fc3-8577-4e9a-9d84-f39e71545a13,Pierz s.c.,finished
-7,b83e90ec-17e0-4a3c-8398-3ca8ea7e9d49,FPUH Ławniczek i syn s.c.,ongoing
-8,9ca5499d-004a-4545-a011-6be5ab0c1681,Gabinety Heba Sp. z o.o. Sp.k.,ongoing
-9,b421eaeb-5340-47ca-baf3-897a3e70f16a,Rzeźniczak s.c.,ongoing
-10,f7b0b7d2-cda8-456c-bd15-eef738c1962e,Młocek-Olesiejuk Sp.j.,in preparation
-11,51ef1922-fe43-449e-9498-18d11759edc3,Fundacja Kandzia-Bok s.c.,ongoing
-12,8c25166a-1ff3-4849-b4e1-357d4a84eb03,Gabinety Dudkowiak,finished
-13,9a6a5f92-cca7-4147-b6be-1f723405095c,PPUH Puła-Barczuk Sp. z o.o.,in preparation
-14,5129fb7c-6288-41a5-8c45-782198a6416d,Spółdzielnia Pietrak-Zacharek S.A.,finished
-15,9cdeb3e6-0870-415c-afcd-81b5d24bace4,Fundacja Fornalik,finished
-16,215663ab-c1f2-44b8-adc0-da7a16febaa0,Bernatowicz-Miecznik Sp. z o.o.,finished
-17,d450fe4a-ec4f-417b-b306-d1a8e5eeac76,FPUH Ziemann-Zimmer Sp.k.,in preparation
-18,cfc6e625-8594-4927-868f-f53d864a7a50,Rejmak-Wacławczyk Sp.k.,ongoing
-19,6b5f5241-f323-4a74-9344-749096fd35d0,Stowarzyszenie Żelazo-Tabiś Sp.k.,in preparation
-20,eabca8d0-b341-4acd-bf0a-c0f1a425799a,Grupa Golenia,ongoing
-21,964a870c-7c87-4b74-9d87-8f9f9cdf5a86,Gabinety Kidoń,ongoing
-22,4562be7f-bb42-40b2-8426-465e3e37952d,Kłósek S.A.,ongoing
-23,552116dd-2ba4-4180-8b69-ca385f3f5638,Gabinety Barcz Sp. z o.o.,in preparation
-24,b29a8b06-daf6-4c5f-a577-bffac87a7463,Denkiewicz-Leoniuk s.c.,ongoing
-25,88c132ad-efbf-419e-a8f6-cf32a25b59fd,FPUH Bródka-Hejduk Sp. z o.o.,finished
-26,d480865f-9b38-4e80-b042-e325a28f5ab0,Grupa Ziemann-Walo Sp. z o.o. Sp.k.,ongoing
-27,0950fd13-1db5-4334-bb03-23a1d576d415,Grupa Kwarciak-Bareja Sp.k.,finished
-28,ba26d851-35e8-479a-baaf-0e891fb797fa,Sosnówka Sp. z o.o.,ongoing
-29,19fbeb1d-9edf-43da-acf5-5b158b53031d,Grupa Opas,ongoing
-30,59acdd98-4d12-4e7f-a59c-ec98126cbc8f,Spółdzielnia Paliga s.c.,ongoing
-31,19d5f970-98b3-4c6e-8a14-b90a7795e986,Spółdzielnia Szykuła Sp. z o.o. Sp.k.,ongoing
-32,d69c91c2-7860-4602-bb4a-06cbe786ab37,Spółdzielnia Wieja-Heczko S.A.,ongoing
-33,c9e4dab2-0edc-4d2b-8470-f0e7f76fbfb8,Szczot-Fiedoruk Sp. z o.o. Sp.k.,ongoing
-34,98c75205-1e01-4934-802d-0baf878b9f6b,FPUH Smektała Sp. z o.o.,ongoing
-35,e66cd36e-68ef-4f5f-ae68-690a78bc7175,Gabinety Beker-Szpara Sp.k.,ongoing
-36,a859890c-d670-4668-a37e-0edc5b6e4ae7,Spółdzielnia Domka,ongoing
-37,bdd7d19b-753c-4c99-832f-06cab0d9c2aa,Filak Sp.k.,ongoing
-38,2284b7a4-47e7-4593-8b58-85ca0bb2c3f0,Roda-Sommer Sp. z o.o. Sp.k.,ongoing
-39,5bf49c04-ac64-4b4c-89b2-5ded9c31d9b2,FPUH Choina-Namysł S.A.,ongoing
-40,bf9cc545-6355-48f7-8f6f-a985b732d46f,Gabinety Drwięga Sp. z o.o.,ongoing
-41,b2d650af-313b-42b7-9836-31890063e42f,Spółdzielnia Gogacz,ongoing
-42,60ef1471-72b8-4f39-a32c-9b6f391cf046,Gabinety Kazior-Domżał Sp.j.,in preparation
-43,6b10e53a-9145-4e05-b3ab-1b2cdf26f517,Kuba Sp.j.,in preparation
-44,285e25b4-b396-4057-825c-b200105ada6b,PPUH Mielke Sp.j.,in preparation
-45,c167733f-9a9e-4310-8fb8-3babe8754cd3,Związek Sp. z o.o.,ongoing
-46,d675ebf7-4fe3-4c9a-9371-0f577e9cf84f,Grupa Krzeszowiec i syn s.c.,finished
-47,6a46721a-cffa-4cdd-b963-a7efe00111e5,Elert-Gmurczyk Sp. z o.o.,finished
-48,fca05536-2169-4f82-b9bd-ee2dd663049d,Draus Sp.k.,ongoing
-49,36a98d74-00de-49f5-90f0-fc2b6ae04d52,Leżoń i syn s.c.,ongoing
-50,acfebb4b-d29e-4693-baf1-501b009a815b,PPUH Rodzeń-Ciuła Sp. z o.o.,finished
-51,dfa7c6ed-32d1-481b-a636-425c9bbd750d,Stowarzyszenie Przeklasa,finished
-52,79c147c7-19a5-411b-aea6-0b99fa7ff8bf,FPUH Jaroszuk Sp. z o.o.,ongoing
-53,ccc14d51-73f6-40d8-a9f4-1cc04653a560,Kuźnia Sp. z o.o. Sp.k.,ongoing
-54,d138d150-8557-416a-a750-2a812227d96d,Grupa Miąsik,finished
-55,04c14982-d9ea-4926-8745-dd9e27896389,Masny S.A.,ongoing
-56,50910bdc-8ef0-46d4-8279-b14dae55cdff,PPUH Rejmak,ongoing
-57,f61164ce-bfc7-4ca9-98ab-0b300ac0cf0d,FPUH Pruchnik-Królikiewicz Sp.k.,ongoing
-58,6f790959-a3e0-4b3b-b56b-0715e7180322,Gabinety Łodej,ongoing
-59,964ddb77-6025-40ae-b535-45792da44da1,Grupa Kuśka,ongoing
-60,56672017-555a-4085-8578-bab326a97465,FPUH Trzos,ongoing
-61,09215f4f-9edb-45f2-8787-ddfb5697f17c,Kostek S.A.,ongoing
-62,4a1eb1b7-955d-4e77-bb5e-b8662640211e,Fundacja Elert,ongoing
-63,7a62722e-1d69-49fc-8b1c-b8bd2130260c,Jacak-Labudda S.A.,ongoing
-64,122411e6-ba89-42dd-85e6-9ea9db66bfda,Fundacja Policht,ongoing
-65,1bd09448-6a2b-4200-8c9a-0ae15419eefc,Żugaj Sp.j.,ongoing
-66,cc417e7c-d741-4609-964a-e90979585e69,Grupa Wenda,finished
-67,6d316b4a-7f6b-4793-b318-ad4c1db2b452,Plich Sp. z o.o. Sp.k.,ongoing
-68,27d99a23-e4f7-425e-afe6-790abc18a40b,Chojna-Sopata Sp.j.,ongoing
-69,a38d8afc-fdd2-4d7a-b97c-cc57ce5dc807,Stanisławek i syn s.c.,ongoing
-70,38974df5-bff7-43ce-b2b2-c49215ace7a1,Siwczak Sp. z o.o.,finished
-71,84dd6da6-8e75-4eb7-a4d0-9913191b8adf,Fundacja Wołoszyk,in preparation
-72,ade6c5e9-b6e3-45f6-95bb-440dc9cd4af9,Twardy-Damps Sp. z o.o. Sp.k.,ongoing
-73,42cb6d1d-ffc5-43d5-bd0b-a70e385af463,Gabinety Płoskonka-Raźniak S.A.,ongoing
-74,d26d5396-1058-4e8c-9d71-73e55bc7fdeb,Matacz Sp.j.,ongoing
-75,1e70e799-33a1-41c2-ad4a-b155c09fcd8f,Fundacja Wiaderek S.A.,finished
-76,f2ad985f-ff3e-4ba1-8ac7-28b4a41865bf,Ksel-Rurarz Sp. z o.o.,in preparation
-77,5c949381-60c6-43ed-b55a-3ac132ae2a20,Gabinety Balik-Wyrobek s.c.,ongoing
-78,905c053b-25fd-4cbe-bce7-1b48fba52e59,FPUH Mądro Sp.j.,finished
-79,ade7cef3-7ed2-4c2f-856f-3d95e0ae1a1b,Gabinety Kobak,ongoing
-80,ab899605-a293-4b3b-bfa7-4d8aff88ec82,Sporek-Różak S.A.,ongoing
-81,f66ac168-b4a1-4a79-9718-ada2027c013f,Gabinety Przewoźniak,ongoing
-82,dfde2281-25fb-4f3d-866d-7002091472ad,PPUH Gierasimiuk,ongoing
-83,953c178e-6106-4a8c-97a3-283c27e969e2,FPUH Stochaj,ongoing
-84,ccc93ff7-10fc-497d-b86e-30efce9b2e70,Kusik i syn s.c.,ongoing
-85,399f8a8f-10fc-4eee-8a17-27f7ea5f24b6,Masny-Mendyka Sp. z o.o.,ongoing
-86,54a1d505-72d6-4c20-980d-6a1cc2472fd6,Myrcha-Naglik i syn s.c.,ongoing
-87,5f0ef320-f7f6-4e7f-b5f2-bc20a7f5195c,Fundacja Świt-Ornat Sp. z o.o.,ongoing
-88,cb4d18d6-adb6-4a35-9734-a26c92e94e89,Gabinety Kohnke-Jarczyk Sp.k.,ongoing
-89,34c3494a-c12e-49b8-a7e1-3ed86d265dd8,PPUH Witkowicz,finished
-90,7b72590b-f8f8-4071-9360-da696af79ad2,PPUH Szwałek S.A.,ongoing
-91,053e4b42-cc4d-4021-9d62-0222d9efe28b,Bejger S.A.,in preparation
-92,4124405b-91fc-4e88-81c1-6e984d6cd782,Grupa Kołtuniak,ongoing
-93,d334886f-f164-49d8-8312-ece2dc2151e1,Gabinety Drela,ongoing
-94,0ff030b8-6238-40a0-8f5e-9ea362584ab3,Zdancewicz-Jonczyk S.A.,ongoing
-95,5582a3bd-d476-4e38-babd-4745497e9f1a,Kochanowicz Sp.j.,ongoing
-96,e3d48408-7de8-4234-a412-579d6af944e0,FPUH Golon-Plizga Sp.k.,finished
-97,5a4f4145-fc98-4279-8f6f-111c26c06e67,Grupa Cieciora Sp.j.,ongoing
-98,19faa06e-0c0a-4967-b579-501a62fda854,Gabinety Warych Sp. z o.o.,finished
-99,21f8c156-9e0d-445b-992a-34a1084fa819,Grupa Hasiak,finished
+0,e3e70682-c209-4cac-a29f-6fbed82c07cd,Williams-Sheppard,ongoing
+1,c8a70639-eb11-47b3-a7a9-c3787c65c1e5,Faulkner-Howard,ongoing
+2,81332876-37eb-4cd9-a87a-1613e443df78,Campbell Inc,ongoing
+3,fcbd04c3-4021-4ef7-8ca5-a5a19e4d6e3c,"Mcgrath, Patrick and Barrera",ongoing
+4,12e0c8b2-bad6-40fb-9948-8dec4f65d4d9,"Rivera, Castro and Gomez",in preparation
+5,e9bb17bc-a3f2-49bf-9c63-16b950f24455,Levy Group,ongoing
+6,42af9fc3-8577-4e9a-9d84-f39e71545a13,Trujillo PLC,ongoing
+7,b83e90ec-17e0-4a3c-8398-3ca8ea7e9d49,Page-Glover,in preparation
+8,7e5b1e7f-9ca5-499d-804a-e545a0116be5,Sanchez-Nguyen,ongoing
+9,eac1c14f-30e9-45cc-901f-bcccded733e8,"Walker, Pratt and Thomas",ongoing
+10,149818d1-1759-4dc3-b2ae-22448b0163c1,Golden-Bolton,ongoing
+11,8d1fd9b7-4d2b-4deb-9beb-37117d41e602,Mann-Kelley,ongoing
+12,3405095c-8a50-46c1-ac18-8efbd080e66e,"Payne, Roberts and Davis",ongoing
+13,935ddd72-5129-4b7c-a288-e1a5cc457821,Roberts and Sons,ongoing
+14,9cdeb3e6-0870-415c-afcd-81b5d24bace4,"Green, Jones and Shelton",finished
+15,ec62b2c8-2648-4e38-a074-05eb215663ab,Kirby Ltd,ongoing
+16,aef9c00b-8a64-41b9-9450-fe4aec4f217b,Massey-Warren,ongoing
+17,d977e993-3c49-476f-8fc6-e62585940927,Jacobson PLC,ongoing
+18,9466e472-6b5f-4241-b323-ca74d3447490,Hayes-Keller,ongoing
+19,fb82860d-eabc-48d0-b341-facdff0ac0f1,Miller-Salazar,ongoing
+20,55d44936-a151-4607-964a-870c7c879b74,Sanchez Ltd,ongoing
+21,38701a14-b490-4608-9dfc-83524562be7f,Norton-Cook,in preparation
+22,c87a7463-19c1-4a0d-8feb-d845d0dfae43,Wyatt and Sons,ongoing
+23,a25b59fd-92e8-4269-912e-cbc40b9475b1,"Guzman, Jones and Martinez",ongoing
+24,9371a71f-d480-465f-9b38-fe803042e325,Myers LLC,ongoing
+25,0950fd13-1db5-4334-bb03-23a1d576d415,"Smith, Woodward and Lopez",ongoing
+26,ba26d851-35e8-479a-baaf-0e891fb797fa,Giles Inc,ongoing
+27,19fbeb1d-9edf-43da-acf5-5b158b53031d,Jones-Jones,ongoing
+28,2e295065-6fa2-41e9-99ac-dd984d125e7f,Gordon Inc,finished
+29,fcfcfa81-b306-4700-99d5-f97098b33c6e,Gonzalez-Howard,ongoing
+30,e6fd68e8-d69c-41c2-b860-1602bb4a06cb,"Jackson, Chambers and Levy",ongoing
+31,28805c5d-ad1b-4f60-89e4-dab20edc6d2b,Peterson LLC,ongoing
+32,713b7e05-ebe2-4368-98c7-52051e01a934,"Thompson, Ruiz and Ortiz",in preparation
+33,eae2025e-8233-4e23-9ff3-334b91b15f5d,Banks-Price,ongoing
+34,8f837ef7-2746-4f22-803d-1f83a859890c,"Smith, Harmon and Rogers",in preparation
+35,2284b7a4-47e7-4593-8b58-85ca0bb2c3f0,Gill Group,in preparation
+36,ac642b4c-49b2-4ded-9c31-d9b25a2b745b,Garza-Mcclain,ongoing
+37,b732d46f-21e1-4094-9efe-e464da90f534,Hughes-Perry,ongoing
+38,98363189-0063-442f-94aa-451ca69cfb85,Hale and Sons,ongoing
+39,72b8ff39-a32c-4b6f-b91c-f0463d4a5d51,Page-Nunez,in preparation
+40,66faf989-0813-4d58-aa16-89addfe1b307,"Bradley, Barton and Fletcher",ongoing
+41,425cb200-105a-4a6b-b202-99e32a69acc7,"Moore, Rose and Freeman",in preparation
+42,0004884c-c167-433f-9a9e-43108fb83bab,Simpson LLC,ongoing
+43,cf1da110-0cc3-4d8c-b786-3fe5d675ebf7,Lopez-Key,ongoing
+44,d663049d-155e-48b1-ba83-ada4a2121ac5,"Anderson, Smith and Herring",ongoing
+45,36a98d74-00de-49f5-90f0-fc2b6ae04d52,Love Inc,ongoing
+46,8741ae91-acfe-4b4b-929e-8693faf1501b,"Davis, Wilson and Banks",ongoing
+47,b044284a-47ac-42f6-8d6b-234fdfa7c6ed,Garcia Group,ongoing
+48,4653a560-0597-4ab6-94d3-0dbca0acf4c9,Marsh-Wilson,ongoing
+49,8557716a-a750-4a81-a227-d96d41a93f90,"Newman, Wilson and Moore",finished
+50,0a68e88e-0ad4-4415-84c1-4982d9ead926,Becker PLC,finished
+51,f03d866a-5dec-406a-b24d-fdd850910bdc,"Browning, Williams and Curry",ongoing
+52,7e969cf3-a7c5-4b87-9b8b-71a1b38a05fb,"Schneider, Ellis and Graham",ongoing
+53,35354579-2da4-4da1-89b5-b368df14c612,Matthews-Smith,ongoing
+54,56672017-555a-4085-8578-bab326a97465,Higgins-Morgan,ongoing
+55,4505f4f6-0a8c-46c7-8921-5f4f9edb95f2,Hernandez PLC,in preparation
+56,fd42f697-6511-4656-9c64-60364a1eb1b7,"Anderson, Wilson and Cross",ongoing
+57,2df96747-4ed1-4553-8c5a-876fef0a81ed,"Chandler, Turner and Houston",in preparation
+58,19724ce3-1bd0-4448-aa2b-32004c9a0ae1,"Kerr, Wells and Randall",ongoing
+59,1fd3c017-57f9-4d1e-8ff4-c56bf9ea2c64,Wilson-Jimenez,finished
+60,bc18a40b-55c7-4d9d-8d49-85dc09aedbd0,"Kline, Gillespie and Sims",ongoing
+61,fdd2ed7a-f97c-4c57-8e5d-c80760257199,"Miller, Morton and Gonzalez",ongoing
+62,0202861c-6283-4869-8fa7-ee0538974df5,Long PLC,ongoing
+63,7d161f29-eb8f-4056-b2d3-cc5d4a31b243,"Klein, Robinson and Miller",ongoing
+64,42cb6d1d-ffc5-43d5-bd0b-a70e385af463,"Waters, Reynolds and Howard",ongoing
+65,da54f267-dd13-4266-926d-53961058fe8c,"Johnson, Fox and Goodwin",ongoing
+66,65e04993-7f41-4fed-9e70-e79933a1d1c2,Clark-Williams,ongoing
+67,9f982188-3744-4a64-8c24-9558f2ad985f,Garcia Group,ongoing
+68,d3b564b0-8be0-4c3e-9c94-938160c6b3ed,Garcia PLC,in preparation
+69,905c053b-25fd-4cbe-bce7-1b48fba52e59,Little-Henderson,ongoing
+70,eac39204-ade7-4ef3-bed2-ec2f856f3d95,Bass-Bolton,in preparation
+71,33b5b3ce-dfec-4623-ab89-9605a2939b3b,"Lynch, Robinson and Peterson",ongoing
+72,51797350-e625-4403-bf3d-f0bbf66ac168,Johnson-Hernandez,in preparation
+73,27e969e2-c8bf-43fb-9a43-1f7a41c30359,Aguilar-Robbins,ongoing
+74,ccc93ff7-10fc-497d-b86e-30efce9b2e70,Black Inc,ongoing
+75,0a66dc4e-2168-4081-b99f-8a8f10fc9eee,Smith-Anthony,ongoing
+76,ccf719ab-2922-4bd8-9ca5-b35354a1d505,Melton Group,ongoing
+77,61d9fe39-8147-48f4-9f0e-f320f7f60e7f,"Shaw, Berry and Gregory",finished
+78,99a2ecb1-c202-487b-849b-8a44ce1bb02a,Burgess and Sons,ongoing
+79,993ec8c6-e6b1-46e2-8911-0af04a276dda,Petersen-Olson,ongoing
+80,9b8086da-6379-4035-b8e4-5086ca819c6f,"Hall, Hancock and Smith",in preparation
+81,2e9583ea-bda1-4da2-800f-c63de2a01335,Hunter-Scott,ongoing
+82,4312ece2-dc21-41e1-be56-ac3d10cc8711,Barton-Cruz,ongoing
+83,a417956f-29ee-4f3d-8ff0-30b86238d0a0,Allen Ltd,ongoing
+84,f11ddff7-0e37-4526-9582-a3bdd476fe38,Olson and Sons,finished
+85,9a1a7d6f-dd02-4100-a3d4-84087de8a234,"Miller, Hale and Patrick",ongoing
+86,9c9d03f3-0901-4aee-a940-7be75a4f4145,Hughes-Williams,in preparation
+87,052daad3-26c0-4984-8734-bb05788c31f6,George and Sons,ongoing
+88,b3386c3e-1af4-487f-92eb-dac5a1457899,"Banks, Lee and Logan",in preparation
+89,e19b5837-1c6a-4b5e-bd85-9725c707aef9,Bishop Group,ongoing
+90,567e5862-ef15-4673-a1df-3da79d44c93e,"Martinez, Fleming and Howell",ongoing
+91,f55e3aa2-208a-493e-9960-af85c9df7e44,Lloyd-Stark,ongoing
+92,fbbff9e0-ae56-402a-b521-ca9fdf5e6f78,Stone and Sons,ongoing
+93,71cff814-645b-4776-8838-a14509c67417,Sherman-Gibson,ongoing
+94,f4dd05d5-1349-447a-a1cb-a182ca20854d,Winters Inc,ongoing
+95,06d2ed7c-e6ac-4d8a-8160-ff927c7550f2,"Estrada, Armstrong and Robinson",ongoing
+96,e27ac8e9-d1c3-41bc-86be-643217ee0eb0,"Chan, Hale and Fisher",ongoing
+97,254bf7ae-1d0a-4994-b20b-575d4e28e674,Snow-Henderson,finished
+98,6a677623-1ad1-4aaa-af8d-9ff015831fee,Garcia and Sons,ongoing
+99,ca9571e4-07dc-42b1-b45d-a406bbf9bb01,Jordan-Butler,ongoing

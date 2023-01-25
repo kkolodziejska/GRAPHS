@@ -26,7 +26,8 @@ Google Cloud,Data Analysis
 Firebase,Data Analysis
 Microsoft Power BI,Data Analysis
 Java,Backend
-PythonAWS,Backend
+Python,Backend
+AWS,Backend
 Microsoft Azure,Backend
 Google Cloud,Backend
 relational databases,Backend

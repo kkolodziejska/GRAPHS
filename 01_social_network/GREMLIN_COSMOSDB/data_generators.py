@@ -104,7 +104,7 @@ def skills_generator() -> dict:
         ],
         'Backend': [
             'Java',
-            'Python'
+            'Python',
             'AWS',
             'Microsoft Azure',
             'Google Cloud',
@@ -154,7 +154,7 @@ def employee_generator(n: int, file_name: str = None) -> None:
 
     spec_len = len(specialisations) - 1
 
-    fake = Faker('pl_PL')
+    fake = Faker()
     Faker.seed(0)
 
     for i in range(n):
@@ -178,8 +178,8 @@ def employee_generator(n: int, file_name: str = None) -> None:
         }
 
         # set email from employee name and surname
-        employee_data['email'] = employee_data.get('surname').lower() + \
-                                 employee_data.get('name').lower() + \
+        employee_data['email'] = employee_data.get('surname').lower().replace(" ", "") + \
+                                 employee_data.get('name').lower().replace(" ", "") + \
                                  '@example.org'
 
         employee_specialisation = employee_data.get('specialisation')
@@ -200,23 +200,44 @@ def employee_generator(n: int, file_name: str = None) -> None:
         # add employee to dict
         employees[i] = employee_data
 
+    # add head of company
+    ceo_data = {
+        'id': n,
+        'surname': fake.last_name_female(),
+        'name': fake.first_name_female(),
+        'gender': 'female',
+        'birthday': fake.date_between(date(1980, 1, 1), date(1998, 1, 1)),
+        'phone': fake.phone_number(),
+        'hire_date': None,
+        'fire_date': None,
+        'specialisation': None,
+        'performance_score': None,
+        'manager': None,
+        'job_title': "CEO",
+        'skills': None
+    }
+
+    employees[n] = ceo_data
+
     # assign managers
     for employee_id, data in employees.items():
 
-        if not data.get('job_title').startswith('Staff'):
+        if not data.get('job_title').startswith('Staff') \
+                and not data.get('job_title') == "CEO":
+            print(data)
             specialisation = data.get('specialisation')
             possible_managers = managers[specialisation]
             number_of_managers = len(possible_managers)
 
             if number_of_managers == 0:
-                data['manager'] = None
+                data['manager'] = n
             elif number_of_managers == 1 and employee_id in possible_managers:
-                data['manager'] = None
+                data['manager'] = n
             elif number_of_managers == 2 and employee_id in possible_managers:
                 possible_managers.remove(employee_id)
                 another_manager = possible_managers[0]
                 if employees[another_manager]['manager'] == employee_id:
-                    data['manager'] = None
+                    data['manager'] = n
                 else:
                     data['manager'] = another_manager
             else:
@@ -228,6 +249,9 @@ def employee_generator(n: int, file_name: str = None) -> None:
                         random.randint(0, number_of_managers - 1)]
 
                 data['manager'] = manager_id
+
+        elif data.get('job_title').startswith('Staff'):
+            data['manager'] = n
 
     # write to file or output
     if not file_name:
@@ -278,7 +302,7 @@ def generate_skills_file(source_file: str, sink_file: str = None) -> None:
 def projects_generator(n: int, file_name: str = None) -> None:
     projects = list()
 
-    fake = Faker('pl_PL')
+    fake = Faker()
     Faker.seed(0)
 
     statuses = ['in preparation', 'finished'] + ['ongoing'] * 5
@@ -340,8 +364,23 @@ def assign_employees_to_projects(employees_file: str,
             csvwriter.writeheader()
 
             for row in csvreader:
-                project_id = random.randint(0, last_index)
-                while projects[project_id]['status'] == 'finished':
+                if row['job_title'] != "CEO":
+                    project_id = random.randint(0, last_index)
+                    while projects[project_id]['status'] == 'finished':
+                        data = {
+                            'employee_id': row['id'],
+                            'project_id': project_id,
+                            'start_date': fake.date_between(
+                                date.fromisoformat(row['hire_date']),
+                                date(2022, 1, 1))
+                        }
+                        data['end_date'] = fake.date_between(
+                            data['start_date'],
+                            date(2022, 1, 1)
+                        )
+                        csvwriter.writerow(data)
+                        project_id = random.randint(0, last_index)
+
                     data = {
                         'employee_id': row['id'],
                         'project_id': project_id,
@@ -349,21 +388,7 @@ def assign_employees_to_projects(employees_file: str,
                             date.fromisoformat(row['hire_date']),
                             date(2022, 1, 1))
                     }
-                    data['end_date'] = fake.date_between(
-                        data['start_date'],
-                        date(2022, 1, 1)
-                    )
                     csvwriter.writerow(data)
-                    project_id = random.randint(0, last_index)
-
-                data = {
-                    'employee_id': row['id'],
-                    'project_id': project_id,
-                    'start_date': fake.date_between(
-                        date.fromisoformat(row['hire_date']),
-                        date(2022, 1, 1))
-                }
-                csvwriter.writerow(data)
 
 
 def save_skills_to_csv(file_path: str) -> None:
@@ -377,4 +402,38 @@ def save_skills_to_csv(file_path: str) -> None:
 
         for specialisation, skills in all_skills.items():
             for skill in skills:
-                csvwriter.writerow({'skill': skill, 'specialisation': specialisation})
+                csvwriter.writerow({
+                    'skill': skill,
+                    'specialisation': specialisation}
+                )
+
+
+def get_employees_without_skills(source_path: str, sink_path: str) -> None:
+
+    with open(source_path, 'r') as source:
+        with open(sink_path, 'w') as sink:
+
+            csvreader = csv.DictReader(source)
+
+            fieldnames = [
+                'id',
+                'surname',
+                'name',
+                'gender',
+                'birthday',
+                'phone',
+                'email',
+                'hire_date',
+                'specialisation',
+                'job_title',
+                'performance_score',
+                'manager'
+            ]
+
+            csvwriter = csv.DictWriter(sink, fieldnames=fieldnames)
+            csvwriter.writeheader()
+
+            for row in csvreader:
+                row.pop('skills')
+                row.pop('fire_date')
+                csvwriter.writerow(row)
