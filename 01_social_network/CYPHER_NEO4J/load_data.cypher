@@ -26,7 +26,7 @@ RETURN *
 
 //load employees
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAPHS/main/01_social_network/_data/employees.csv' AS row
-MERGE (e: Employee {
+CREATE (e: Employee {
 employee_id: toInteger(row.id),
 surname: row.surname,
 name: row.name,
@@ -66,3 +66,10 @@ LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/kkolodziejska/GRAP
 MATCH (e: Employee {employee_id: toInteger(row.employee_id)})
 MATCH (p: Project {id: toInteger(row.project_id)})
 CREATE (e)-[:WORKS_ON {start_date: date(row.start_date), end_date: date(row.end_date)}]->(p)
+
+//add job title CEO and assign to employee with id 3000
+MERGE (j: Job_title {name: 'CEO'})
+WITH j
+MATCH (e: Employee {employee_id: 3000})
+MERGE (e)-[r:WORKS_AS]->(j)
+RETURN *

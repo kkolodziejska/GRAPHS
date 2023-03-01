@@ -8,10 +8,10 @@ if __name__ == '__main__':
     projects_path = '../_data/projects.csv'
     employees_in_projects_path = '../_data/employee_projects.csv'
     skills_path = '../_data/skills.csv'
-    employee_generator(3000, file_path)
-    generate_skills_file(file_path, employee_skills_path)
-    projects_generator(100, projects_path)
-    assign_employees_to_projects(file_path, projects_path, employees_in_projects_path)
-    save_skills_to_csv(skills_path)
+    # employee_generator(3000, file_path)
+    # generate_skills_file(file_path, employee_skills_path)
+    # projects_generator(100, projects_path)
+    # assign_employees_to_projects(file_path, projects_path, employees_in_projects_path)
+    # save_skills_to_csv(skills_path)
 
-    # get_employees_without_skills(file_path, '../_data/employees2.csv')
+    get_employees_without_skills(file_path, '../_data/employees2.csv')

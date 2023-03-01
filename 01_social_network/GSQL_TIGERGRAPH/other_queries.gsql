@@ -1,0 +1,47 @@
+CREATE QUERY employeeTree(INT employee_id) FOR GRAPH socialnetwork {
+
+  TYPEDEF TUPLE <start VERTEX, reports EDGE, e VERTEX > reportTriple;
+  TYPEDEF TUPLE <start VERTEX, reports EDGE> subordinate;
+
+  INT eid = employee_id;
+  employee = SELECT e FROM Employee:e WHERE e.employee_id == eid;
+
+  ListAccum<subordinate> @@subordinates;
+  ListAccum<reportTriple> @@pathToCEO;
+
+  subordinates = SELECT s FROM Employee:s -(REPORTS_TO>: e)- employee
+                 ACCUM @@subordinates += subordinate(s, e);
+
+  while eid != 3000 DO
+
+      employee = SELECT m FROM employee -(REPORTS_TO>: e) - Employee:m
+                ACCUM @@pathToCEO += reportTriple(employee, e, m)
+                POST-ACCUM eid = m.employee_id;
+  END;
+
+  PRINT @@subordinates, @@pathToCEO;
+}
+
+
+CREATE QUERY findallskills() FOR GRAPH socialnetwork {
+  SELECT start, e, tgt INTO T
+  FROM skill:start - (FROM_SPECIALISATION>: e) - specialisation:tgt;
+  PRINT T;
+}
+
+
+CREATE QUERY findskill(VERTEX<skill> s) FOR GRAPH socialnetwork {
+  start = {s};
+  SELECT start, e, tgt INTO T
+  FROM start - (FROM_SPECIALISATION>: e) - specialisation:tgt;
+  PRINT T;
+}
+
+
+CREATE QUERY showhierarchy() FOR GRAPH socialnetwork {
+
+  SELECT s, e, m INTO T
+  FROM Employee:s -(REPORTS_TO>:e) - Employee:m;
+
+  PRINT T;
+}

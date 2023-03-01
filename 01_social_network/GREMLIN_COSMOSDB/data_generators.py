@@ -208,14 +208,18 @@ def employee_generator(n: int, file_name: str = None) -> None:
         'gender': 'female',
         'birthday': fake.date_between(date(1980, 1, 1), date(1998, 1, 1)),
         'phone': fake.phone_number(),
-        'hire_date': None,
+        'hire_date': date(2016, 1, 1),
         'fire_date': None,
         'specialisation': None,
-        'performance_score': None,
+        'performance_score': 200,
         'manager': None,
         'job_title': "CEO",
         'skills': None
     }
+
+    ceo_data['email'] = ceo_data.get('surname').lower().replace(" ", "") + \
+                        ceo_data.get('name').lower().replace(" ", "") + \
+                        '@example.org'
 
     employees[n] = ceo_data
 

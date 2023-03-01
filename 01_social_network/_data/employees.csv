@@ -2999,4 +2999,4 @@ id,surname,name,gender,birthday,phone,email,hire_date,fire_date,specialisation,j
 2997,Spears,Thomas,male,1997-03-12,017.646.4660x0408,spearsthomas@example.org,2021-06-19,,UI,UI Developer,"['Google Cloud', 'HTML/CSS', 'AWS', 'Angular']",120,2376
 2998,Lee,Caitlin,female,1982-05-25,(371)923-6009x4887,leecaitlin@example.org,2017-02-06,,Big Data,Big Data Engineer,"['NoSQL databases', 'Google Cloud', 'Spark', 'Microsoft Azure']",192,2983
 2999,Romero,Valerie,female,1997-03-14,+1-442-752-4537x443,romerovalerie@example.org,2021-08-16,,Big Data,Senior Big Data Engineer,"['AWS', 'Microsoft Azure', 'SQL', 'Python', 'Scala', 'Spark', 'Hadoop']",117,2925
-3000,Adams,Christy,female,1997-12-16,+1-132-723-2037x7877,,,,,CEO,,,
+3000,Adams,Christy,female,1997-12-16,+1-132-723-2037x7877,adamschristy@example.org,2016-01-01,,,CEO,,200,

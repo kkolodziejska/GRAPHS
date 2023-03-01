@@ -1,0 +1,26 @@
+CREATE QUERY recommendEmployee(VERTEX<specialisation> s, SET<VERTEX<skill>> skillset,
+                               INT minPerformance, VERTEX<Employee> referencer) FOR GRAPH socialnetwork {
+
+spec = {s};
+ref = {referencer};
+SetAccum<VERTEX> @employeeSkills;
+SetAccum<VERTEX> @employeePosition;
+SumAccum<INT> @referenced = 0;
+
+employee_with_ref = SELECT e FROM Employee:e - () - project - () - ref
+                    ACCUM e.@referenced += 1;
+
+employee = SELECT e FROM spec - () - position:p - () - Employee:e - (HAS_SKILL>) - skill:sk
+           WHERE sk IN skillset
+           AND e.performance_score > minPerformance
+           ACCUM e.@employeeSkills += sk,
+                 e.@employeePosition += p
+           ORDER BY e.@employeeSkills.size() DESC, e.@referenced DESC, e.performance_score DESC;
+
+
+PRINT employee[employee.surname as surname, employee.name as name,
+  employee.performance_score as performance_score,
+  employee.@employeePosition as job_title, employee.@employeeSkills as skills,
+  employee.@referenced as is_referenced];
+
+}
