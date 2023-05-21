@@ -1,4 +1,4 @@
-id,surname,name,gender,birthday,phone,email,hire_date,fire_date,specialisation,job_title,skills,performance_score,manager
+id,surname,name,gender,birthday,phone,email,hire_date,fire_date,specialisation,position,skills,performance_score,manager
 0,Richard,Norma,female,1994-04-23,4876475938,richardnorma@example.org,2017-03-08,,UI,Senior UI Developer,"['Typescript', 'AWS', 'React', 'Angular']",148,1006
 1,Campbell,Nicole,female,1988-07-10,+1-924-115-7815,campbellnicole@example.org,2019-09-10,,Data Analysis,Senior Data Analyst,"['Microsoft Power BI', 'AWS']",180,1012
 2,Stewart,Martin,male,1986-12-16,+1-778-408-0160,stewartmartin@example.org,2021-03-16,,Backend,Backend Developer,"['Python', 'Java', 'relational databases']",181,900
